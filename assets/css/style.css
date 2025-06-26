@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Raleway:wght@100;400;700&display=swap');
+
+/* ================================= 
+   Variáveis Globais e Estilos Base
+   ================================= */
+
+:root {
+    --color-primary: #333333;
+    --color-background: #F5F3F0;
+    --color-surface: #FFFFFF;
+    --font-primary: 'Raleway', sans-serif;
+    --font-secondary: 'Cormorant Garamond', serif;
+}
+
+body {
+    font-family: var(--font-primary);
+    margin: 0;
+    background-image: url('../images/Philosphy.jpg'); /* Verifique o caminho da imagem! */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--font-secondary);
+}
+
+/* ================================= 
+   HEADER / NAVBAR
+   ================================= */
+
+.navbar {
+    position: relative;
+    padding: 15px 40px;
+    background-color: transparent !important;
+}
+
+/* Estilo do Logo */
+.navbar-brand {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--color-surface);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+}
+.navbar-brand:hover {
+    color: var(--color-surface);
+}
+.logo-location {
+    font-family: var(--font-primary);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Estilo dos Links de Navegação */
+.nav-link {
+    color: var(--color-surface) !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0 15px !important;
+    transition: color 0.2s ease-in-out;
+}
+.nav-link:hover {
+    color: #cccccc !important;
+}
+
+/* Botão CTA */
+.navbar .btn {
+    text-shadow: none;
+}
+
+/* --- Layout Responsivo do Header --- */
+
+@media (min-width: 992px) {
+    /* Centraliza o logo no Desktop */
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* Organiza os links e o botão nas laterais */
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* Ícone do menu "hambúrguer" branco */
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-toggler {
+        border-color: rgba(255,255,255,0.25);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* Fundo do menu quando aberto no mobile */
+    .navbar-collapse.show, .navbar-collapse.collapsing {
+        background-color: rgba(10, 10, 10, 0.85);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        padding: 12px 0 !important;
+    }
+    .navbar-nav.ms-auto {
+        margin-top: 15px;
+    }
+}
+
+/* ================================= 
+   MAIN CONTENT (HERO SECTION)
+   ================================= */
+
+.hero-section {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem); /* Fonte responsiva */
+    font-weight: 300;
+}
+.hero-content h1, .hero-content p {
+    color: var(--color-surface);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ================================= 
+   FOOTER
+   ================================= */
+
+footer {
+    background-color: transparent;
+    padding: 20px 40px;
+    font-size: 0.9rem;
+    color: var(--color-surface);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.social-media-links {
+    margin: 0;
+}
+.social-media-links a {
+    color: var(--color-surface);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.social-media-links a:hover {
+    color: #cccccc;
+}
+
+/* Garante que os parágrafos no footer não tenham margem extra */
+footer p {
+    margin-bottom: 0;
+}
