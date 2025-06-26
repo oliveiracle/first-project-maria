@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Raleway:wght@100;400;700&display=swap');
 
 /* ================================= 
-   Variáveis Globais e Estilos Base
+   1. Global Variables & Base Styles
+   (Applied to ALL pages)
    ================================= */
 
 :root {
     --color-primary: #333333;
-    --color-background: #F5F3F0;
     --color-surface: #FFFFFF;
     --font-primary: 'Raleway', sans-serif;
     --font-secondary: 'Cormorant Garamond', serif;
@@ -15,7 +15,8 @@
 body {
     font-family: var(--font-primary);
     margin: 0;
-    background-image: url('../images/Philosphy.jpg'); /* Verifique o caminho da imagem! */
+    /* Imagem de fundo aplicada a TODAS as páginas */
+    background-image: url('../images/Philosphy.jpg'); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ================================= 
-   HEADER / NAVBAR
+   2. Header / Navbar (Global Styles)
+   (Applied to ALL pages)
    ================================= */
 
 .navbar {
@@ -36,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent !important;
 }
 
-/* Estilo do Logo */
+/* Logo Styling */
 .navbar-brand {
     font-family: var(--font-secondary);
     font-weight: 700;
@@ -57,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* Estilo dos Links de Navegação */
+/* Navigation Links Styling */
 .nav-link {
     color: var(--color-surface) !important;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -71,22 +73,19 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link:hover {
     color: #cccccc !important;
 }
-
-/* Botão CTA */
-.navbar .btn {
-    text-shadow: none;
+.nav-link.active {
+    font-weight: 700; /* Highlights the active page link */
 }
 
-/* --- Layout Responsivo do Header --- */
+/* --- Header Responsive Layout --- */
 
 @media (min-width: 992px) {
-    /* Centraliza o logo no Desktop */
+    /* Centers the logo on Desktop */
     .navbar-brand {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
     }
-    /* Organiza os links e o botão nas laterais */
     .navbar-collapse {
         display: flex !important;
         justify-content: space-between;
@@ -95,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991.98px) {
-    /* Ícone do menu "hambúrguer" branco */
+    /* Hamburger Menu Icon */
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
@@ -105,11 +104,10 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-toggler:focus {
         box-shadow: none;
     }
-    /* Fundo do menu quando aberto no mobile */
+    /* Background for opened mobile menu */
     .navbar-collapse.show, .navbar-collapse.collapsing {
         background-color: rgba(10, 10, 10, 0.85);
         backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
         border-radius: 10px;
         margin-top: 10px;
         padding: 20px;
@@ -124,20 +122,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ================================= 
-   MAIN CONTENT (HERO SECTION)
+   3. Main Content Section Styles
    ================================= */
 
+/* --- Homepage Hero Section --- */
 .hero-section {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 40px;
 }
-
 .hero-content h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem); /* Fonte responsiva */
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 300;
 }
 .hero-content h1, .hero-content p {
@@ -145,8 +142,38 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* --- Contact Page Styles --- */
+.contact-form-wrapper {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 4px;
+    color: var(--color-primary); /* Dark text */
+}
+.contact-form-wrapper h1,
+.contact-form-wrapper p {
+    text-shadow: none; /* No text shadow inside the form */
+}
+.form-control {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+.form-control:focus {
+    background-color: #fff;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.2);
+}
+.map-wrapper-full {
+    height: 450px;
+    width: 100%;
+}
+.map-wrapper-full iframe {
+    filter: grayscale(85%);
+}
+
+
 /* ================================= 
-   FOOTER
+   4. Footer (Global Styles)
+   (Applied to ALL pages)
    ================================= */
 
 footer {
@@ -156,12 +183,12 @@ footer {
     color: var(--color-surface);
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
 .social-media-links {
     margin: 0;
 }
+/* This rule ensures social media icons are white */
 .social-media-links a {
-    color: var(--color-surface);
+    color: var(--color-surface); 
     font-size: 1.2rem;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -169,8 +196,6 @@ footer {
 .social-media-links a:hover {
     color: #cccccc;
 }
-
-/* Garante que os parágrafos no footer não tenham margem extra */
 footer p {
     margin-bottom: 0;
 }
