@@ -1,5 +1,4 @@
-/*General Variables and Shared Styles*/
-
+/* Fonts and Variables */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Raleway:wght@100;400;700&display=swap");
 
 :root {
@@ -7,12 +6,6 @@
   --color-surface: #ffffff;
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Cormorant Garamond", serif;
-}
-
-html,
-body {
-  overscroll-behavior: none;
-  overflow-y: auto;
 }
 
 body {
@@ -28,6 +21,13 @@ h4,
 h5,
 h6 {
   font-family: var(--font-secondary);
+}
+
+/* Prevent overscroll and set overflow */
+html,
+body {
+  overscroll-behavior: none;
+  overflow-y: auto;
 }
 
 /* Logo Styling */
@@ -114,9 +114,6 @@ footer {
   color: var(--color-surface);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-footer p {
-  margin-bottom: 0;
-}
 .social-media-links {
   margin: 0;
 }
@@ -129,8 +126,12 @@ footer p {
 .social-media-links a:hover {
   color: #cccccc;
 }
+footer p {
+  margin-bottom: 0;
+}
 
-/* Index html Classes */
+/* Index.html styles */
+
 .index-background {
   background-image: url("../images/Philosophy.jpg");
   background-size: cover;
@@ -139,7 +140,7 @@ footer p {
   background-attachment: fixed;
 }
 
-/* --- Hero Section --- */
+/* Hero Section  */
 .hero-section {
   display: flex;
   justify-content: center;
@@ -161,7 +162,8 @@ footer p {
   font-weight: 200;
 }
 
-/* Philosophy.html Classes */
+/* Philosphy.html styles */
+
 .page-with-background {
   background-image: url("../images/Background6.jpg");
   background-size: cover;
@@ -173,20 +175,25 @@ footer p {
 .philosophy-title {
   text-align: center;
   max-width: 90%;
-  padding-top: 95px;
-  padding: 40px;
-  border-radius: 8px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .philosophy-hero {
   position: relative;
   width: 100%;
   height: 100vh;
+  background: url("../images/Background6.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  flex-direction: column;
+  padding-top: 120px;
 }
 
 .philosophy-text {
@@ -208,26 +215,7 @@ footer p {
   margin-top: 0;
 }
 
-.story-content {
-  background-color: #ffffff;
-  padding: 100px 15%;
-  text-align: left;
-}
-
-.story-content h2 {
-  font-size: 2.2 rem;
-  margin-bottom: 30px;
-  color: #2c2c2c;
-}
-
-.story-content {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 20px;
-  color: #555555;
-}
-
-/*Contact.html Classes */
+/* Contact.html Styles */
 
 .contact-background {
   background-image: url("../images/Philosophy.jpg");
@@ -237,6 +225,7 @@ footer p {
   background-attachment: fixed;
 }
 
+/* --- Contact Page Styles --- */
 .contact-form-wrapper {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 4px;
@@ -255,7 +244,6 @@ footer p {
   .contact-form-wrapper {
     padding: 20px;
   }
-
   main {
     height: 100vh;
     display: flex;
@@ -264,7 +252,6 @@ footer p {
     padding: 20px;
     overflow: hidden;
   }
-
   .contact-content-block {
     flex: 1;
     display: flex;
@@ -272,32 +259,27 @@ footer p {
     justify-content: space-around;
     gap: 20px;
   }
-
   form {
     flex: 1;
     max-height: 45vh;
     overflow-y: auto;
   }
-
   .google-map {
     flex: 1;
     max-height: 45vh;
   }
-
   .google-map iframe {
     height: 100%;
     width: 100%;
     border: none;
     border-radius: 18px;
   }
-
   .form-control-sm {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0.2rem;
   }
-
   .contact-page .navbar-brand,
   .contact-page .logo-location {
     display: none;

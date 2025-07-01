@@ -208,25 +208,6 @@ footer p {
   margin-top: 0;
 }
 
-.story-content {
-  background-color: #ffffff;
-  padding: 100px 15%;
-  text-align: left;
-}
-
-.story-content h2 {
-  font-size: 2.2 rem;
-  margin-bottom: 30px;
-  color: #2c2c2c;
-}
-
-.story-content {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 20px;
-  color: #555555;
-}
-
 /*Contact.html Classes */
 
 .contact-background {

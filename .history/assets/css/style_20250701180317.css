@@ -130,7 +130,7 @@ footer p {
   color: #cccccc;
 }
 
-/* Index html Classes */
+/* Index.html Classes *
 .index-background {
   background-image: url("../images/Philosophy.jpg");
   background-size: cover;
@@ -162,6 +162,12 @@ footer p {
 }
 
 /* Philosophy.html Classes */
+
+html,
+body {
+  overflow-y: hidden;
+}
+
 .page-with-background {
   background-image: url("../images/Background6.jpg");
   background-size: cover;
@@ -173,20 +179,18 @@ footer p {
 .philosophy-title {
   text-align: center;
   max-width: 90%;
-  padding-top: 95px;
-  padding: 40px;
-  border-radius: 8px;
 }
 
 .philosophy-hero {
   position: relative;
   width: 100%;
   height: 100vh;
+  background: url("../images/Background6.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  align-items: flex-start;
+  padding-top: 120px;
 }
 
 .philosophy-text {
@@ -206,25 +210,6 @@ footer p {
   color: #333333;
   text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
   margin-top: 0;
-}
-
-.story-content {
-  background-color: #ffffff;
-  padding: 100px 15%;
-  text-align: left;
-}
-
-.story-content h2 {
-  font-size: 2.2 rem;
-  margin-bottom: 30px;
-  color: #2c2c2c;
-}
-
-.story-content {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 20px;
-  color: #555555;
 }
 
 /*Contact.html Classes */
