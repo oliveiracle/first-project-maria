@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Raleway:wght@100;400;700&display=swap");
 
-/* general variables and body styles */
-
+/* General variables and body styles */
 :root {
   --color-primary: #333333;
   --color-surface: #ffffff;
@@ -14,7 +13,7 @@ body {
   margin: 0;
 }
 
-/*philosophy.html image background*/
+/* Philosophy.html image background */
 .page-with-background {
   background-image: url("../images/Background6.jpg");
   background-size: cover;
@@ -59,14 +58,7 @@ body {
   margin-top: 0;
 }
 
-.index-background {
-  background-image: url("../images/Philosophy.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
+.index-background,
 .contact-background {
   background-image: url("../images/Philosophy.jpg");
   background-size: cover;
@@ -75,7 +67,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Same as the online classes with tutor Jo */
+/* Headings font */
 h1,
 h2,
 h3,
@@ -85,20 +77,11 @@ h6 {
   font-family: var(--font-secondary);
 }
 
+/* Prevent overscroll and set overflow */
 html,
 body {
   overscroll-behavior: none;
   overflow-y: auto;
-}
-
-/* header and navbar applied to all the pages */
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: transparent;
 }
 
 /* Logo Styling */
@@ -141,7 +124,6 @@ body {
 }
 
 /* --- Header Responsive Layout --- */
-
 @media (min-width: 992px) {
   .navbar-brand {
     position: absolute;
@@ -180,7 +162,7 @@ body {
   }
 }
 
-/* --- TODO: maybe make this more responsive on small screens--- */
+/* --- Hero Section --- */
 .hero-section {
   display: flex;
   justify-content: center;
@@ -207,25 +189,12 @@ body {
 
 /* --- Contact Page Styles --- */
 .contact-form-wrapper {
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.9
-  ); /* not sure if this looks good on all pages */
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 4px;
-  color: var(--color-primary); /* Dark text */
-}
-.contact-form-wrapper h1,
-.contact-form-wrapper p {
-  text-shadow: none; /* removed shadow here - looks cleaner maybe */
-}
-
-/*not the form control */
-.form-control:not(.form-control-sm) {
-  background-color: #f7f7f7;
+  color: var(--color-primary);
   border: 1px solid #ddd;
 }
+
 .form-control:focus {
   background-color: #fff;
   border-color: var(--color-primary);
@@ -245,7 +214,7 @@ footer {
   margin: 0;
 }
 
-/* This rule makes social media icons white */
+/* Social media icons styling */
 .social-media-links a {
   color: var(--color-surface);
   font-size: 1.2rem;
@@ -261,6 +230,7 @@ footer p {
   margin-bottom: 0;
 }
 
+/* --- Responsive Contact Page --- */
 @media (max-width: 768px) {
   .contact-form-wrapper {
     padding: 20px;
@@ -308,7 +278,8 @@ footer p {
     border-radius: 0.2rem;
   }
 
-  textarea {
-    resize: none;
+  .contact-page .navbar-brand,
+  .contact-page .logo-location {
+    display: none;
   }
 }
