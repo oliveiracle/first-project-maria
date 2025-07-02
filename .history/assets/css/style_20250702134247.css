@@ -273,7 +273,6 @@ footer p {
   .contact-form-wrapper {
     padding: 20px;
   }
-
   .contact-page,
   main {
     min-height: 100vh;
@@ -281,9 +280,8 @@ footer p {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    overflow-y: auto;
+    overflow: hidden;
   }
-
   .contact-content-block {
     flex: 1;
     display: flex;
