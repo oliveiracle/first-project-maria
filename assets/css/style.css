@@ -163,7 +163,7 @@ footer p {
 
 /* Philosophy.html Classes */
 .page-with-background {
-  background-image: url("../images/Background6.jpg");
+  background-image: url("../images/Philosophy3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -192,11 +192,14 @@ footer p {
 .philosophy-text {
   font-family: var(--font-secondary);
   font-size: 3.2rem;
-  color: #333333;
+  color: #5d5c5a;
   margin-top: 10px;
   text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  max-width: 90%;
+  text-align: right;
+  max-width: 45%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
 }
 
 .philosophy-highlight {
