@@ -20,7 +20,7 @@ The website focuses on simplicity and elegance, allowing users to explore the ph
 
 #### Homepage
 
-***Accceptance Criteria:**
+**Accceptance Criteria:**
 - The homepage clearly displays the spa's name, logo, and primary tagline.
 - A clear Call-to-Action (e.g., "Book Your Program") is visible.
 - The website layout is fully responsive and adjusts cleanly across various screen sizes, from mobile to desktop.
@@ -45,7 +45,7 @@ The website focuses on simplicity and elegance, allowing users to explore the ph
 - Add an  element with a relevant source and alt text.
 - Style the page for a premium reading experience.
 
-  #### Contact Page
+#### Contact Page
 
 **Acceptance Criteria:**
 - Contact page is accessible via the main nav.
@@ -59,7 +59,7 @@ The website focuses on simplicity and elegance, allowing users to explore the ph
 - Embed Google Maps via `<iframe>`.
 - Style using Bootstrap and custom CSS.
 
-  #### Navigation
+#### Navigation
 
 **Acceptance Criteria:**
 - Navbar is consistent across all pages.
@@ -72,7 +72,7 @@ The website focuses on simplicity and elegance, allowing users to explore the ph
 - Confirm `href` values are accurate.
 - Add CSS for hover effects.
 
-  #### Accessibility
+#### Accessibility
 
 **Acceptance Criteria:**
 - All images have descriptive `alt` text.
@@ -86,7 +86,7 @@ The website focuses on simplicity and elegance, allowing users to explore the ph
 - Ensure buttons/links are focusable via keyboard.
 - Validate HTML using W3C Validator.
 
-  #### Gallery (Optional/Extra)
+#### Gallery (Optional/Extra)
 
 **Acceptance Criteria:**
 - A gallery section or page exists.
