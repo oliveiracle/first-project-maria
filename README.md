@@ -110,20 +110,18 @@ The visual and the user experience aims to reflect the spa's values - calm, excl
 ## Contact Page:
 ## Programs Page:
 
-
-
 ### Design
 The MARIA Spa website was designed to reflect an atmosphere of refined simplicity, calm, and elegance. It's design choices reinforce the values of quiet luxury and natural care.
 
 ### Color Scheme
 The main colors used throughout the site include:
 
-- #333333 - a deep charcoal used for text and primary elements, evoking seriousness and modern elegance.
-- #ffffff -  clean white used for backgrounds and cointaners to keep the design light and minimal.
-- #cccccc - soft gray used for subtle hover effects and secondary tones.
+- #333333 - a deep charcoal used for text and primary elements, evoking seriousness and modern elegance. https://g.co/kgs/Uj3QcYW
+- #ffffff -  clean white used for backgrounds and cointaners to keep the design light and minimal. https://g.co/kgs/AWUKjXs
+- #cccccc - soft gray used for subtle hover effects and secondary tones. https://g.co/kgs/ZGo3uUz
 - transparent overlays and subtle shadows are used to create a sense of depth whothout clutter.
 
-### Typography
+### Typography - https://fonts.google.com/
 Two carefully chosen fonts from Google Fonts enhance the brand's visual identity:
 - Cormoront Garamond - https://fonts.google.com/specimen/Cormorant+Garamond
   Used for headings and brand name, this serif font conveys elegance, heritage, and a touch of old-world refinement.
@@ -131,49 +129,46 @@ Two carefully chosen fonts from Google Fonts enhance the brand's visual identity
 - Raleway - https://fonts.google.com/specimen/Raleway
   Used for body text and navigation, this sans-serif font adds a modern and clean contrast, ensuring readability and balance.
 
-### Icons
+### Icons  - https://fontawesome.com/
 Font Awesome is used across the site to add visual clarity and brand personality:
 - Icons like spa, users-line, envelope, and social media logos are used in navigation, contact areas, and footer.
 - These icons are styled in white to match the site's color scheme and adjust on hover for acessibility and feedback.
 
 ### Index.html Page:
-fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
-fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+- fa-instagram -> https://fontawesome.com/icons/instagram?f=brands&s=solid
+- fa-facebook-f -> https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+- fa-pinterest-p -> https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
 Social media icons for footer links.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
-fa-flask-vial — https://fontawesome.com/icons/flask-vial?f=classic&s=solid
+- fa-flask-vial —> https://fontawesome.com/icons/flask-vial?f=classic&s=solid
 Represents natural ingredients and treatments.
-
-fa-users-line — https://fontawesome.com/icons/users-line?s=solid
+- fa-users-line —> https://fontawesome.com/icons/users-line?s=solid
 Symbolizes group or personalized therapies.
-
-fa-hourglass-start — https://fontawesome.com/v5/icons/hourglass-start?s=solid
+- fa-hourglass-start —> https://fontawesome.com/v5/icons/hourglass-start?s=solid
 Suggests the passage of time and slow living.
-
-fa-spa — https://fontawesome.com/icons/spa?s=solid
+- fa-spa —> https://fontawesome.com/icons/spa?s=solid
 Reinforces the spa and wellness concept.
 
 ### Contact.html Page:
-fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
-fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+- fa-instagram -> https://fontawesome.com/icons/instagram?f=brands&s=solid
+- fa-facebook-f -> https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+- fa-pinterest-p -> https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
 Icons repetead for user acessibility.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
 
 ### Philosphy.html Page:
-fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
-fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+- fa-instagram -> https://fontawesome.com/icons/instagram?f=brands&s=solid
+- fa-facebook-f -> https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+- fa-pinterest-p -> https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
 Icons to ensure brand consistency.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
 All icons are styled using Font Awesome 6.7.2.
 
 ### Layout
-- The layout is fully responsive, built with Bootstrap 5, and adjusts smootly across devices from mobile to large desktops.
+- The layout is fully responsive, built with Bootstrap 5.2 (https://getbootstrap.com/docs/5.2/getting-started/introduction/), and adjusts smootly across devices from mobile to large desktops.
 - The header and navigation bar remain consistent on all pages.
 - Key sections like the hero, contact form and story content are centered and spaced with careful padding and aligment.
 
