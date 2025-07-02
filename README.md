@@ -4,8 +4,30 @@
 **MARIA Spa** is a clean and minimalist website designed to reflect the values of quiet luxury, natural healing, and holistic well-being. It was created for a high-end spa that offers exclusive, personalized treatments in serene locations across cities like London, Paris, and New York.
 The website focuses on simplicity and elegance, allowing users to explore the philosophy behind the brand, learn about the programs offered, and get in touch for bespoke bookings. Every section is crafted to convey calm, trust, and the refined nature of the MARIA Spa experience.
 
+## Table of Contents
 ## UX
+1.1 User Stories
+1.2 Design
+1.3 Color Scheme
+1.4 Typography
+1.5 Icons
+1.6 Wireframes
 
+## Technologies Used
+## Testing
+3.1 Validators
+3.2 Automated Testing
+
+## Deployment
+4.1 Local Deployment
+4.2 Remote Deployment
+
+## Credits
+5.1 Content
+5.2 Media
+5.3 Acknowledgements
+
+## UX
 ### User Stories
 I created a set of user stories to help shape the design and structure of the website. These stories reflect what differente types of users might when visiting the site. Following below are the user stories.
 - As a first-time visitor, I want to easily understand the spa's concept from the homepage and have the site work perfectly on my device (desktop or mobile), so I can efficiently decide if this service is for me.
@@ -101,9 +123,6 @@ The visual and the user experience aims to reflect the spa's values - calm, excl
 - A layout that adjusts smootly on mobile and desktop.
 - Clean sections with space to let each element "breathe".
 
-### Wireframes
- I created wireframes before beginning development to plan the sctructure and layout of the site. As the design envolved during the build process, I made several visual and function improvements. Therefore, some wireframes will be updated to reflect the final version of the project more accurately.
-
 ## Homepage (Desktop): 
 ## Homepage (Mobile):
 ## Philosophy Page:
@@ -166,6 +185,9 @@ Icons to ensure brand consistency.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
 All icons are styled using Font Awesome 6.7.2.
+
+### Wireframes
+ I created wireframes before beginning development to plan the sctructure and layout of the site. As the design envolved during the build process, I made several visual and function improvements. Therefore, some wireframes will be updated to reflect the final version of the project more accurately.
 
 ### Layout
 - The layout is fully responsive, built with Bootstrap 5.2 (https://getbootstrap.com/docs/5.2/getting-started/introduction/), and adjusts smootly across devices from mobile to large desktops.
