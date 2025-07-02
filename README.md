@@ -38,7 +38,7 @@ These helped me stay focused on usability, consistency, and user experience duri
 - The page presents the story of the spa in a readable format.
 - The page includes at least one high-quality image that reflects the brand's essence.
 
-  **Tasks:**
+**Tasks:**
 - Create the philosophy.html page.
 - Add text content using appropriate heading and paragraph tags.
 - Add an  element with a relevant source and alt text.
@@ -137,6 +137,12 @@ Font Awesome is used across the site to add visual clarity and brand personality
 - These icons are styled in white to match the site's color scheme and adjust on hover for acessibility and feedback.
 
 ### Index.html Page:
+fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
+fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+Social media icons for footer links.
+A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
+
 fa-flask-vial — https://fontawesome.com/icons/flask-vial?f=classic&s=solid
 Represents natural ingredients and treatments.
 
@@ -149,27 +155,18 @@ Suggests the passage of time and slow living.
 fa-spa — https://fontawesome.com/icons/spa?s=solid
 Reinforces the spa and wellness concept.
 
-fa-instagram, fa-facebook-f, fa-pinterest-p — 
-https://fontawesome.com/icons/instagram?f=brands&s=solid
-https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
-Social media icons for footer links.
-A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
-
 ### Contact.html Page:
-fa-instagram, fa-facebook-f, fa-pinterest-p — 
-https://fontawesome.com/icons/instagram?f=brands&s=solid
-https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
+fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
 Icons repetead for user acessibility.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
 
 ### Philosphy.html Page:
-fa-instagram, fa-facebook-f, fa-pinterest-p — 
-https://fontawesome.com/icons/instagram?f=brands&s=solid
-https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
-https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
+fa-instagram - https://fontawesome.com/icons/instagram?f=brands&s=solid
+fa-facebook-f - https://fontawesome.com/v5/icons/facebook-f?f=brands&s=solid
+fa-pinterest-p - https://fontawesome.com/v5/icons/pinterest-p?f=brands&s=solid
 Icons to ensure brand consistency.
 A Custom favicon was added using the <link rel="icon" type="image/png" href="assets/images/icon.png"/> tag to enhance brand identity and browser tab recognition.
 
@@ -184,7 +181,7 @@ All icons are styled using Font Awesome 6.7.2.
 - Hero backgrounds feature serene photography (e.g., plant in water) thay conveys calmeness and align with the brand's essence.
 - Light shadow and transparency are used to soften the visual experience and make content easier to read over images.
 
-- 
+  
 
 
 
