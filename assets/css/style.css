@@ -40,3 +40,23 @@ main-nav {
 .nav-links ul li a:hover {
   color: var(--highlighted-color);
 }
+
+/*CALL TO ACTION BUTTON STYLE*/
+.button-cta {
+  background-color: var(--highlighted-color);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+/*MOUSE HOVER EFFECT*/
+.button-cta:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
