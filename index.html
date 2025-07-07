@@ -22,49 +22,36 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="index-background">
-    <!-- Main navigation bar / DONE -->
-    <header>
-      <nav class="main-nav">
-        <div class="container">
-          <!-- Logo text/ DONE -->
-          <a class="logo" href="index.html">
-            <span class="logo-text">MARIA | WELLNESS & SPA</span>
-            <p class="logo-location">London | Paris | NY</p>
-          </a>
-   <button class="menu-toggle" aria-label="Toggle navigation">
-    <i class="fa-solid fa-bars"></i>
-   </button>
-   <div class="nav-links" id="main-nav>
-    <ul>
-        <li>
-            <a href="index.html">HOME</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link" href="philosophy.html">PHILOSOPHY</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">PROGRAMS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
+    <!-- Main navigation bar -->
+    <header class="site-header">
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="philosophy.html">Philosophy</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <li>
-            <a href="contact.html" class="button-cta">
-                BOOK YOUR PROGRAM
-                </a>
-                </li>
-            </ul>
-            </div>
-            </div>
-            </nav>
+      </nav>
 
-    <!-- Hero section with welcome text  / DONE -->
+      <div class="logo">
+        MARIA | WELLNESS & SPA
+        <div class="logo-location">LONDON | PARIS | NY</div>
+      </div>
+
+      <a class="button-cta" href="#">Book Your Program</a>
+    </header>
+
+    <!-- Hero section with welcome text -->
     <main class="hero-section">
       <div class="hero-content">
         <h1>MARIA — Quiet Luxury. Deep Presence.</h1>
@@ -72,46 +59,43 @@
       </div>
     </main>
 
-    <!-- Icons centralized, favicon items / DONE -->
-    <div
-      class="flex-grow-1 d-flex justify-content-center align-items-center text-center"
-    >
+    <!-- Icons centralized, favicon items -->
+    <section class="features-section">
       <div class="container">
-        <div class="row">
-          <div class="col">
+        <div class="features-grid">
+          <div class="feature-item">
             <i class="fa-solid fa-flask-vial fa-4x"></i>
             <p>Science meets calm</p>
           </div>
-          <div class="col">
+          <div class="feature-item">
             <i class="fa-solid fa-users-line fa-4x"></i>
             <p>Over 50 leading specialists</p>
           </div>
-          <div class="col">
+          <div class="feature-item">
             <i class="fa-solid fa-hourglass-start fa-4x"></i>
             <p>20 years of science</p>
           </div>
-          <div class="col">
+          <div class="feature-item">
             <i class="fa-solid fa-spa fa-4x"></i>
             <p>A range of holistic treatments</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Footer section -->
-    <footer class="mt-auto">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-md-4 text-center text-md-start">
-            <p class="footer-address">123 Quiet Street, London, UK</p>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-address">
+            <p>123 Quiet Street, London, UK</p>
           </div>
-          <div class="col-md-4 text-center">
-            <p class="copyright-text">&copy; 2025 MARIA Wellness & Spa</p>
+          <div class="footer-copyright">
+            <p>&copy; 2025 MARIA Wellness & Spa</p>
           </div>
-          <div class="col-md-4 text-center text-md-end">
-            <!-- Social icons / DONE -->
-            <ul class="list-inline social-media-links">
-              <li class="list-inline-item">
+          <div class="footer-social">
+            <ul>
+              <li>
                 <a
                   href="https://instagram.com"
                   target="_blank"
@@ -120,7 +104,7 @@
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              <li>
                 <a
                   href="https://facebook.com"
                   target="_blank"
@@ -129,7 +113,7 @@
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              <li>
                 <a
                   href="https://pinterest.com"
                   target="_blank"
@@ -143,7 +127,5 @@
         </div>
       </div>
     </footer>
-
-    
   </body>
 </html>
