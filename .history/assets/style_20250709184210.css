@@ -360,7 +360,7 @@ main {
   border-radius: 8px;
   cursor: pointer;
   display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .map-container {

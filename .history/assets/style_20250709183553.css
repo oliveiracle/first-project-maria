@@ -268,15 +268,14 @@ footer {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  background-color: transparent
+  border: 1cap solid #1a1a1a;
+  padding: 20px 40px;
+  border-radius: 30% / 10%;
+  display: inline-block;
+  text-align: center;
 }
 
-.menu-toggle {
-  display: none;
-  border: none;
-  color: #fff;
-  font-size: 24px;
-  cursor: pointer;
-}
 
 .section-style {
   height: 100vh;
@@ -360,7 +359,6 @@ main {
   border-radius: 8px;
   cursor: pointer;
   display: block;
-  margin: 0 auto;
 }
 
 .map-container {
