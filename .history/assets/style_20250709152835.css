@@ -282,3 +282,62 @@ footer {
 }
 
 /* Responsive Styles */
+@media (max-width: 768px) {
+  /* Header layout stacked */
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  /* Navigation links vertical */
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-links ul li {
+    margin: 0;
+  }
+
+  /* Call to action button */
+  .button-cta {
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Hero section and typography */
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .main-message h1 {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+
+  .main-message p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Footer layout stacked */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .spa-benefits {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

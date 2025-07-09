@@ -282,3 +282,48 @@ footer {
 }
 
 /* Responsive Styles */
+@media (min-width: 668px) {
+  html,
+  body {
+    margin: 72px;
+    background-color: #000;
+  }
+  h1 {
+    font-size: 60px;
+    color: #fff;
+  }
+  p {
+    font-size: 30px;
+    color: #f00;
+  }
+}
+@media (max-width: 667px) {
+  html,
+  body {
+    margin: 36px;
+    background-color: #f00;
+  }
+  h1 {
+    font-size: 36px;
+    color: #000;
+  }
+  p {
+    font-size: 24px;
+    color: #fff;
+  }
+}
+@media (max-width: 375px) {
+  html,
+  body {
+    margin: 12px;
+    background-color: #fff;
+  }
+  h1 {
+    font-size: 24px;
+    color: #f00;
+  }
+  p {
+    font-size: 16px;
+    color: #000;
+  }
+}
