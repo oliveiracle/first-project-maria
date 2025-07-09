@@ -53,7 +53,6 @@ body {
 
 .nav-links ul li {
   margin-right: 10px;
-  border-radius: 2px solid #1a1a1a;
 }
 
 .nav-links ul li a,
@@ -82,7 +81,7 @@ body {
   margin: 0;
   text-transform: none;
   padding: 10px 30px;
-  border: 1px solid #1a1a1a;
+  border: 2px solid #1a1a1a;
   font-weight: 600;
 }
 
@@ -117,20 +116,18 @@ body {
   justify-content: center;
 }
 
-/* Favicon Icon Styles */
 .feature-item i {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: var(--primary-color);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
-  transition: transform 0.3s ease;
 }
 
 .feature-item p {
-  font-size: 18px;
-  font-weight: 300;
-  color: #f5f5f5;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
   background: transparent;
   transition: all 0.3s ease;
 }
@@ -138,7 +135,6 @@ body {
 .feature-item p:hover {
   background: var(--primary-color);
   color: #fff;
-  transform: scale(1.1);
 }
 
 footer {

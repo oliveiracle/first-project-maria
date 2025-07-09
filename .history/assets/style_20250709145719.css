@@ -120,7 +120,7 @@ body {
 /* Favicon Icon Styles */
 .feature-item i {
   font-size: 3.5rem;
-  color: var(--primary-color);
+  color: rgba(26, 26, 26, 0.85);
   margin-bottom: 10px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -128,7 +128,7 @@ body {
 
 .feature-item p {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   color: #f5f5f5;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   background: transparent;
