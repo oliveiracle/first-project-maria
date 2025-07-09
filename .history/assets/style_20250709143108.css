@@ -19,7 +19,6 @@ body {
 }
 
 .site-header {
-  backdrop-filter: blur(10px);
   background: transparent;
   padding: 20px 40px;
   position: absolute;

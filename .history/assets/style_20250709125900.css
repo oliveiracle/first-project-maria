@@ -1,8 +1,8 @@
 :root {
   --highlighted-color: #fff;
-  --primary-color: #1a1a1a;
-  --font-primary: "Raleway", sans-serif;
-  --font-titles: "Cormorant Garamond", serif;
+  --primary-color: #1a1a1a; /* main color of text and buttons */
+  --font-primary: "Raleway", sans-serif; /* primary font for body text */
+  --font-titles: "Cormorant Garamond", serif; /*secondary font for titles and headings */
 }
 
 * {
@@ -11,17 +11,16 @@
   box-sizing: border-box;
 }
 
-/* Background image and general layout styles */
+/*Background image and general layout styles*/
 body {
   font-family: var(--font-primary);
   overflow-x: hidden;
-  background: url("images/MainPage.jpg") center center/cover no-repeat fixed;
+  background: url("images/image1.jpg") center center/cover no-repeat fixed; /* walpaper for the entire page */
 }
 
 .site-header {
-  backdrop-filter: blur(10px);
   background: transparent;
-  padding: 20px 40px;
+  padding: 20px 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +30,6 @@ body {
   justify-content: space-between;
   z-index: 1000;
 }
-
 /* Main navigation styles */
 .main-nav {
   display: flex;
@@ -97,7 +95,7 @@ body {
   padding: 60px 0;
 }
 
-.spa-benefits {
+.features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -164,17 +162,6 @@ footer {
   color: var(--highlighted-color);
 }
 
-/* Footer address styles */
-.footer-adress a {
-  color: var(--primary-color) !important;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-.footer-adress a:hover {
-  text-decoration: underline;
-}
-
 .container {
   width: 90%;
   max-width: 1200px;
@@ -191,43 +178,24 @@ footer {
 }
 
 .main-message {
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
   border-radius: 10px;
 }
 
-.main-message {
-  text-align: center;
-  padding: 0 20px;
-}
-
-/* Maria - Quiet Luxury Deep Presence -  text styles */
-.main-message h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 72px;
-  color: #1a1a1a;
-  margin-bottom: 20px;
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 1.2;
-}
-
-/* Relaxing treatments and peaeful spaces to make you fel better -  text styles */
-.main-message p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 38px;
+.hero-content h1 {
+  font-family: var(--font-titles);
+  font-size: 36px;
   color: var(--primary-color);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  max-width: 800px;
-  font-style: italic;
+  margin-bottom: 10px;
 }
 
-.main-message .hidden {
+.hero-content p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.hero-content .hidden {
   display: none;
   background: none;
   border: none;
@@ -276,8 +244,9 @@ footer {
 }
 
 /* Responsive Styles */
+
 @media (max-width: 768px) {
-  .spa-benefits {
+  .features-grid {
     grid-template-columns: 1fr 1fr;
   }
   .footer-grid {

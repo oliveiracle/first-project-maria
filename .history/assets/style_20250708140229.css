@@ -1,0 +1,260 @@
+  
+  :root {
+    --highlighted-color: #fff;
+    --primary-color: #1a1a1a;
+    --font-primary: "Raleway", sans-serif;
+    --font-titles: "Cormorant Garamond", serif;
+  }
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-primary);
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("images/image1.jpg"); /*applying for all pages*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* header */
+    
+  .site-header {
+    background-color: transparent;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+  }
+
+  /* navs */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto
+  }
+
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-links ul li {
+    margin-right: 10px;
+  }
+
+  .nav-links ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    color: #ffffff;
+  }
+
+  .nav-links ul li a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+
+  /*CTA BUTTON */
+  .button-cta {
+    background: transparent;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 1.875rem;
+    text-decoration: none;color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border: 1px solid var(--primary-color);
+  }
+
+  .button-cta:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* hero */
+  .hero-section {
+    padding: 100px 60px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-family: var(--font-titles);
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    color: var(--primary-color);
+  }
+
+  .hero-content .hidden {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+
+  /* features */
+  .features-section {
+    padding: 60px 0;
+    background-color: transparent !important;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-item i {
+    font-size: 4rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .feature-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .feature-item p:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+
+  /* footer */
+  footer {
+    padding: 20px 40px;
+    background-color: transparent;
+  }
+
+  .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-address,
+  .footer-copyright,
+  .footer-social {
+    flex: 1;
+  }
+
+  .footer-address {
+    text-align: left;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+
+  .footer-social {
+    text-align: right;
+  }
+
+
+  .footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-social li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .footer-social a {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+
+  .footer-social a:hover {
+    color: var(--accent-color); /
+  }
+
+  /* menu toogle */
+  .menu-toggle {
+    display: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* container main */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent !important;
+  }
+
+  /* section style */
+  .section-style {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

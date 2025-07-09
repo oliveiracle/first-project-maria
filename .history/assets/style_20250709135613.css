@@ -19,7 +19,6 @@ body {
 }
 
 .site-header {
-  backdrop-filter: blur(10px);
   background: transparent;
   padding: 20px 40px;
   position: absolute;
@@ -191,40 +190,25 @@ footer {
 }
 
 .main-message {
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
   border-radius: 10px;
 }
 
-.main-message {
-  text-align: center;
-  padding: 0 20px;
-}
-
-/* Maria - Quiet Luxury Deep Presence -  text styles */
+/* Maria - Quiet Luxury Deep Presence text styles */
 .main-message h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 72px;
+  font-size: 48px;
   color: #1a1a1a;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 1.2;
 }
 
-/* Relaxing treatments and peaeful spaces to make you fel better -  text styles */
 .main-message p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 38px;
+  font-size: 18px;
   color: var(--primary-color);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  max-width: 800px;
-  font-style: italic;
 }
 
 .main-message .hidden {

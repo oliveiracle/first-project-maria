@@ -11,28 +11,28 @@
   box-sizing: border-box;
 }
 
-/* Background image and general layout styles */
 body {
   font-family: var(--font-primary);
+  margin: 0;
   overflow-x: hidden;
-  background: url("images/MainPage.jpg") center center/cover no-repeat fixed;
+  background-image: url("images/image1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+/* HEADER */
 .site-header {
-  backdrop-filter: blur(10px);
-  background: transparent;
-  padding: 20px 40px;
+  background-color: transparent;
+  padding: 20px 0;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
+  z-index: 100;
 }
 
-/* Main navigation styles */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -41,6 +41,7 @@ body {
   position: relative;
 }
 
+/* NAVIGATION */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -55,8 +56,7 @@ body {
   margin-right: 10px;
 }
 
-.nav-links ul li a,
-.button-cta {
+.nav-links ul li a {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -65,39 +65,44 @@ body {
   padding: 10px 20px;
   border: 1px solid var(--primary-color);
   border-radius: 30px;
-  background: transparent;
+  background-color: transparent;
+  transition: color 0.3s ease;
   color: var(--primary-color);
-  transition: all 0.3s ease;
 }
 
-/* Slight elevation effect on buttons */
-.nav-links ul li a:hover,
+.nav-links ul li a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* CALL TO ACTION BUTTON */
+.button-cta {
+  background: transparent;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary-color);
+}
+
 .button-cta:hover {
   background: var(--primary-color);
   color: #fff;
-}
-
-.button-cta {
-  margin: 0;
-}
-
-.button-cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Grid layout for displaying key spa features */
-.features-section,
-.container,
-.footer-grid {
-  background: transparent !important;
-}
-
+/* FEATURES SECTION */
 .features-section {
   padding: 60px 0;
+  background-color: transparent !important;
 }
 
-.spa-benefits {
+.features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -116,33 +121,39 @@ body {
   font-size: 4rem;
   color: var(--primary-color);
   margin-bottom: 15px;
+  display: inline-block;
+  border: none;
+  padding: 0;
   text-align: center;
 }
 
 .feature-item p {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  background: transparent;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .feature-item p:hover {
-  background: var(--primary-color);
-  color: #fff;
+  background-color: var(--primary-color);
+  color: white;
 }
 
+/* FOOTER */
 footer {
-  background: transparent !important;
+  background-color: transparent !important;
   color: var(--primary-color);
   padding: 40px 0;
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
   text-align: center;
 }
 
@@ -164,70 +175,51 @@ footer {
   color: var(--highlighted-color);
 }
 
-/* Footer address styles */
-.footer-adress a {
-  color: var(--primary-color) !important;
-  text-decoration: none;
-  font-weight: normal;
+.footer-adress,
+.footer-coopyright,
+.footer-social {
+  flex: 1;
 }
 
-.footer-adress a:hover {
-  text-decoration: underline;
+.footer-adress {
+  text-align: left;
 }
 
+.footer-coopyright {
+  text-align: center;
+}
+
+/* MAIN CONTAINER */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: transparent !important;
 }
 
+/* HERO SECTION */
 .hero-section {
   padding: 100px 60px;
   text-align: center;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main-message {
-  background-color: none;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.main-message {
-  text-align: center;
-  padding: 0 20px;
-}
-
-/* Maria - Quiet Luxury Deep Presence -  text styles */
-.main-message h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 72px;
-  color: #1a1a1a;
-  margin-bottom: 20px;
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 1.2;
-}
-
-/* Relaxing treatments and peaeful spaces to make you fel better -  text styles */
-.main-message p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 38px;
+.hero-content h1 {
+  font-family: var(--font-titles);
+  font-size: 36px;
   color: var(--primary-color);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  max-width: 800px;
-  font-style: italic;
+  margin-bottom: 10px;
 }
 
-.main-message .hidden {
+.hero-content p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.hero-content .hidden {
   display: none;
   background: none;
   border: none;
@@ -236,6 +228,7 @@ footer {
   color: var(--primary-color);
 }
 
+/* LOGO */
 .logo,
 .logo-text {
   font-family: var(--font-titles);
@@ -250,8 +243,8 @@ footer {
   font-size: 12px;
   color: var(--primary-color);
   text-transform: uppercase;
-  margin-top: 5px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 5;
+  text-shadow: 1px 1px 2px rgba (0, 0, 0.3);
 }
 
 .logo {
@@ -260,6 +253,7 @@ footer {
   transform: translateX(-50%);
 }
 
+/* MENU TOGGLE */
 .menu-toggle {
   display: none;
   border: none;
@@ -268,34 +262,11 @@ footer {
   cursor: pointer;
 }
 
+/*SECTION STYLES */
 .section-style {
   height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .spa-benefits {
-    grid-template-columns: 1fr 1fr;
-  }
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-  .site-header {
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav-links ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .hero-section {
-    padding: 50px 20px;
-    height: auto;
-  }
-  .button-cta {
-    margin-top: 20px;
-  }
+  justify-content: center;
 }
