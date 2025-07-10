@@ -1,0 +1,120 @@
+/* ================================================== */
+/* VARIÁVEIS CSS (ROOT) */
+/* ================================================== */
+:root {
+  --highlighted-color: #fff;
+  --primary-color: #1a1a1a;
+  --font-primary: "Raleway", sans-serif;
+  --font-titles: "Cormorant Garamond", serif;
+}
+
+/* ================================================== */
+/* RESET BÁSICO */
+/* ================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; /* Garante que não haja barra de rolagem horizontal desnecessária */
+  overflow-y: auto;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: url("../images/MainPage.jpg") center center/cover no-repeat fixed;
+  line-height: 1.6;
+}
+
+/* ================================================== */
+/* CABEÇALHO (HEADER) - DESKTOP */
+/* ================================================== */
+.site-header {
+  background: transparent;
+  padding: 10px 40px; /* Espaçamento interno do cabeçalho */
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex; /* ATIVADO: Container Flexbox */
+  align-items: center; /* Alinha itens verticalmente no centro */
+  justify-content: space-between; /* Distribui itens: primeiro na esquerda, último na direita */
+  z-index: 1000;
+}
+
+/* Oculta o checkbox e o ícone do menu-toggle no desktop */
+#menu-toggle-checkbox,
+.menu-toggle {
+  display: none;
+}
+
+/* Logo: AGORA ESCONDIDA */
+.logo {
+  display: none; /* Esta regra esconde a logo */
+}
+
+/* ================================================== */
+/* NAVEGAÇÃO (LINKS) */
+/* ================================================== */
+.nav-links {
+  order: 1; /* Ordem visual: primeiro item (canto esquerdo) */
+  flex-grow: 1; /* Permite que ocupe o espaço extra à esquerda, empurrando o botão */
+  justify-content: flex-start; /* Alinha o UL à esquerda dentro do seu espaço flex-grow */
+}
+
+.nav-links ul {
+  /* display: flex e list-style: none AQUI! */
+  display: flex; /* Faz os LIs ficarem em linha */
+  list-style: none; /* Remove as bolinhas */
+  flex-direction: row; /* Garante que estejam em linha (horizontal) */
+  gap: 30px; /* Espaçamento entre os links (HOME, PHILOSOPHY etc.) */
+  padding: 0; /* Garante que não haja padding padrão de lista */
+  margin: 0; /* Garante que não haja margem padrão de lista */
+}
+
+/* Estilo dos Links A dentro dos LIs */
+.nav-links ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+  border: none; /* Garante que não haja bordas nos links */
+}
+
+.nav-links ul li a:hover {
+  background: var(--primary-color);
+  color: var(--highlighted-color); /* Cor branca no hover */
+}
+
+/* ================================================== */
+/* BOTÃO DE AÇÃO (CTA) */
+/* ================================================== */
+.button-cta {
+  order: 2; /* Ordem visual: segundo item (agora à direita, já que a logo sumiu) */
+  display: inline-block;
+  text-transform: none; /* Overrides uppercase do seletor combinado */
+  padding: 10px 30px;
+  font-weight: 600;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: none; /* AGORA SEM BORDA! */
+  border-radius: 0;
+  transition: all 0.3s ease;
+  flex-grow: 0; /* Não precisa crescer, já que o nav-links vai empurrar */
+  text-align: right; /* Alinha o texto do botão à direita */
+}
+
+.button-cta:hover {
+  background: var(--primary-color);
+  color: var(--highlighted-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

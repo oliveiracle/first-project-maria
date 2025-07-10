@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Make the website responsive on phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website for a spa with info and contact"
+    />
+    <title>MARIA Spa Website</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="assets/images/icon.png" />
+
+    <!-- Fonts Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="index-background">
+    <header class="site-header">
+      <!-- Checkbox para abrir o menu em telas pequenas -->
+      <input type="checkbox" id="menu-toggle-checkbox" />
+      <label
+        for="menu-toggle-checkbox"
+        class="menu-toggle"
+        aria-label="Open navigation menu"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <div class="logo">
+        <div class="logo-text">MARIA | WELLNESS & SPA</div>
+        <div class="logo-location">LONDON | PARIS | NY</div>
+      </div>
+
+      <!-- Navegação (escondida em telas pequenas, exibida ao marcar o checkbox) -->
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PHILOSOPHY</a></li>
+          <li><a href="#">PROGRAMS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#" class="button-cta">BOOK YOUR PROGRAM</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="hero-section">
+      <div class="main-message">
+        <h1>MARIA — Quiet Luxury. Deep Presence.</h1>
+        <p>Relaxing treatments and peaceful spaces to make you feel better.</p>
+      </div>
+    </main>
+    <section class="features-section">
+      <div class="container">
+        <div class="spa-benefits">
+          <div class="feature-item">
+            <i class="fa-solid fa-flask-vial fa-4x"></i>
+            <p>Science meets calm</p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-users-line fa-4x"></i>
+            <p>Over 50 leading specialists</p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-hourglass-start fa-4x"></i>
+            <p>20 years of science</p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-spa fa-4x"></i>
+            <p>A range of holistic treatments</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-address">
+            <p>
+              <a
+                href="https://maps.app.goo.gl/iLgQMbWuFq2zFYVX7"
+                target="_blank"
+                rel="noopener"
+              >
+                123 Quiet Street, London, UK
+              </a>
+            </p>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; 2025 MARIA Wellness & Spa</p>
+          </div>
+          <div class="footer-social">
+            <ul>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://pinterest.com"
+                  target="_blank"
+                  aria-label="Pinterest"
+                >
+                  <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
