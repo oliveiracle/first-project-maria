@@ -340,7 +340,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +374,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {
@@ -387,7 +385,6 @@ main {
   height: 150px;
 }
 
-/* Style for contact-page-background */
 body.contact-page-background {
   background: url("../images/Body.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;

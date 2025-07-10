@@ -295,17 +295,7 @@ footer {
 
 /*==================================================== */
 /*==================================================== */
-/* Contact.html Page Styles */
 /* Form and Maps Styles */
-.contact-page-wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 .contact-container {
   max-width: 90%;
   margin: 0 auto;
@@ -340,7 +330,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +364,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {

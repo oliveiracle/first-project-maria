@@ -364,6 +364,7 @@ main {
   height: 100px;
 }
 
+/*Rule applied for the Button above the Form */
 .form-button {
   order: 2;
   padding: 10px 20px;
@@ -375,7 +376,7 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
+  transform: translateY(20px); /* I moved the button down a bit */
 }
 
 .map-container {

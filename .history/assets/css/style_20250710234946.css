@@ -293,18 +293,7 @@ footer {
   align-items: center;
 }
 
-/*==================================================== */
-/*==================================================== */
-/* Contact.html Page Styles */
 /* Form and Maps Styles */
-.contact-page-wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
-}
 
 .contact-container {
   max-width: 90%;
@@ -321,7 +310,7 @@ footer {
 }
 
 .contact-section {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px 10px;
   background-color: transparent;
@@ -340,7 +329,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +363,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {
@@ -387,18 +374,10 @@ main {
   height: 150px;
 }
 
-/* Style for contact-page-background */
-body.contact-page-background {
-  background: url("../images/Body.jpg") center center/cover no-repeat fixed;
-  background-attachment: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 /*==================================================== */
 /*==================================================== */
 /*==================================================== */
-/* Style for programs page */
+/* Style for programs and contact pages */
 body.inner-page-background {
   background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
@@ -407,6 +386,7 @@ body.inner-page-background {
   overflow-x: hidden;
 }
 
+/* White background for the main content */
 .main-content-wrapper {
   background-color: #ffffff;
   max-width: 1200px;

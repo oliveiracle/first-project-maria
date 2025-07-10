@@ -340,7 +340,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +374,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {
@@ -409,7 +407,7 @@ body.inner-page-background {
 
 .main-content-wrapper {
   background-color: #ffffff;
-  max-width: 1200px;
+  max-width: 600px;
   margin: 30px auto;
   padding: 40px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);

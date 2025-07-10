@@ -22,7 +22,7 @@ body {
 body {
   font-family: var(--font-primary);
   overflow-x: hidden;
-  background: url("../images/Body1.jpg") center center/cover no-repeat fixed; /* Background image for index.html */
+  background: url("../images/Body1.jpg") center center/cover no-repeat fixed; /* Background image for all pages */
   line-height: 1.6;
 }
 
@@ -118,7 +118,6 @@ body {
   align-items: center;
 }
 
-/* Rule applied for the Favicon Icons */
 .feature-item {
   display: flex;
   flex-direction: column;
@@ -135,6 +134,7 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* Rule applied for the Favicon Icons */
 .feature-item p {
   font-size: 16px;
   font-weight: 300;
@@ -149,9 +149,6 @@ body {
   color: #fff;
   transform: scale(1.1);
 }
-
-/*===================================================== */
-/*===================================================== */
 
 /* Rule applied for the footer */
 footer {
@@ -293,10 +290,6 @@ footer {
   align-items: center;
 }
 
-/*==================================================== */
-/*==================================================== */
-/* Contact.html Page Styles */
-/* Form and Maps Styles */
 .contact-page-wrapper {
   height: 100vh;
   display: flex;
@@ -321,10 +314,10 @@ footer {
 }
 
 .contact-section {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px 10px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   transform: translateY(-80px);
   max-height: 90vh;
@@ -340,7 +333,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +367,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {
@@ -387,26 +378,19 @@ main {
   height: 150px;
 }
 
-/* Style for contact-page-background */
-body.contact-page-background {
-  background: url("../images/Body.jpg") center center/cover no-repeat fixed;
-  background-attachment: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 /*==================================================== */
 /*==================================================== */
 /*==================================================== */
-/* Style for programs page */
+/* Style for programs and contact pages */
 body.inner-page-background {
   background: #f8f8f8;
-  background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
+  background-image: none;
   background-attachment: scroll;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
+/* White background for the main content */
 .main-content-wrapper {
   background-color: #ffffff;
   max-width: 1200px;
@@ -545,7 +529,7 @@ body.inner-page-background {
   /* Fundo das páginas internas (programs.html, contact.html) para mobile */
   body.inner-page-background {
     background: #f8f8f8;
-    background-image: url("../images/Body.jpg");
+    background-image: none;
     background-attachment: scroll;
     overflow-y: auto;
     overflow-x: hidden;

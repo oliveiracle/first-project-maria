@@ -364,6 +364,7 @@ main {
   height: 100px;
 }
 
+/*Rule applied for the Button above the Form */
 .form-button {
   order: 2;
   padding: 10px 20px;
@@ -375,7 +376,7 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
+  transform: translateY(20px); /* I moved the button down a bit */
 }
 
 .map-container {
@@ -488,6 +489,7 @@ body.inner-page-background {
   color: var(--primary-color);
   margin-bottom: 10px;
   line-height: 1.2;
+  text-align: left;
 }
 
 .program-description {
@@ -496,6 +498,7 @@ body.inner-page-background {
   color: #777;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .read-more-btn {
@@ -508,7 +511,7 @@ body.inner-page-background {
   font-family: var(--font-primary);
   font-weight: bold;
   transition: background-color 0.3s ease;
-  align-self: flex-start;
+  margin-top: auto;
 }
 
 .read-more-btn:hover {

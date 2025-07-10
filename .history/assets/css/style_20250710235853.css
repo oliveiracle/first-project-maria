@@ -295,7 +295,6 @@ footer {
 
 /*==================================================== */
 /*==================================================== */
-/* Contact.html Page Styles */
 /* Form and Maps Styles */
 .contact-page-wrapper {
   height: 100vh;
@@ -340,7 +339,6 @@ main {
   margin-top: 120px;
 }
 
-/* Rule applied for the form / name/ email/ message */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -375,7 +373,6 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
 }
 
 .map-container {
@@ -388,7 +385,7 @@ main {
 }
 
 /* Style for contact-page-background */
-body.contact-page-background {
+.contact-page-background {
   background: url("../images/Body.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
   overflow-y: auto;
