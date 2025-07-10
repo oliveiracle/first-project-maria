@@ -427,18 +427,18 @@ body.inner-page-background {
 
 .programs-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout responsivo de grid */
+  gap: 30px; /* Espaço entre os cartões */
   padding: 0 20px; /* Adds some padding to the sides on smaller screens */
 }
 
 .program-card {
   background-color: #ffffff;
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden; /* Ensures the image does not go outside the rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* Shadow to highlight the card */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Organizes content in columns */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
 }
 
@@ -449,9 +449,9 @@ body.inner-page-background {
 
 .program-image {
   width: 100%;
-  height: 220px;
+  height: 220px; /* Fixed height for card images */
   object-fit: cover; /* Ensures the image covers the space without distorting */
-  display: block;
+  display: block; /* Remove extra space below the image */
 }
 
 .program-info {
@@ -502,23 +502,23 @@ body.inner-page-background {
   display: block;
 }
 
-/* Media queries section */
+/*=================================================== */
+/*=================================================== */
+/*=================================================== */
+/* MEDIA QUERIES (RESPONSIVIDADE) */
 
 /* Tablet e Mobile screens up to 992px */
-
 @media (max-width: 992px) {
-  /* Fundo da página principal (index.html) para mobile */
+  /* Home page background (index.html) for mobile */
   body.index-background {
-    background-color: var(
-      --primary-color
-    ); /* Um fundo sólido (preto) para mobile */
-    background-image: none;
-    background-attachment: scroll;
+    background-color: var(--primary-color); /* A solid (black) background for mobile */
+    background-image: none; /* Removes large image from desktop */
+    background-attachment: scroll; /* Normal scrolling behavior */
     overflow-y: auto;
     overflow-x: hidden;
   }
 
-  /* Fundo das páginas internas (programs.html, contact.html) para mobile */
+  /* Background of internal pages (programs.html, contact.html) for mobile */
   body.inner-page-background {
     background: #f8f8f8;
     background-image: none;
@@ -535,37 +535,37 @@ body.inner-page-background {
     padding: 15px 20px;
   }
 
-  /* Exibe o checkbox e o ícone do menu-toggle em mobile */
+  /* Displays the checkbox and the menu-toggle icon on mobile */
   #menu-toggle-checkbox {
-    display: block;
-    position: absolute;
+    display: block; /* The checkbox must be visible to be clickable */
+    position: absolute; /* Position it so that it doesn't take up space in the layout */
     top: 15px;
     left: 20px;
-    z-index: 1001;
-    opacity: 0;
-    width: 30px;
-    height: 30px;
+    z-index: 1001; /* Garante que fique por cima de outros elementos */
+    opacity: 0; /* Makes the checkbox invisible */
+    width: 30px; /* Clickable area */
+    height: 30px; /* Clickable area */
     cursor: pointer;
   }
 
   .menu-toggle {
-    display: flex; /* Exibe o ícone do hambúrguer */
+    display: flex; /* Displays the hamburger icon */
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
     height: 30px;
     cursor: pointer;
     padding: 5px;
-    position: absolute; /* Posiciona o ícone */
+    position: absolute; /* Positions the icon */
     top: 15px;
     left: 20px;
-    z-index: 1002; /* Acima do checkbox invisível */
+    z-index: 1002; /* Above the invisible checkbox */
   }
 
   .menu-toggle .bar {
     width: 100%;
     height: 3px;
-    background-color: var(--primary-color); /* Cor das barrinhas */
+    background-color: var(--primary-color); /* Color of the bars */
     border-radius: 2px;
     transition: all 0.3s ease;
   }
@@ -584,27 +584,23 @@ body.inner-page-background {
 
   .site-header .logo,
   .site-header .button-cta {
-    display: none; /* Oculta logo e botão no mobile para o menu ocupar o espaço */
+    display: none;
   }
 
-  /* Faz a navegação ocupar a tela inteira quando o menu estiver aberto */
+  /* Makes navigation take up the entire screen when the menu is open */
   .nav-links {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0.95
-    ); /* Fundo semi-transparente para o menu */
+    background-color: rgba(255, 255, 255, 0.95);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: left 0.3s ease;
     z-index: 999;
+    /
   }
 
   #menu-toggle-checkbox:checked ~ .nav-links {
@@ -625,7 +621,7 @@ body.inner-page-background {
 /*=================================================== */
 /*=================================================== */
 
-/* MEDIA QUERIES for screens up to 768px - Updtaed for better responsiveness */
+/* MEDIA QUERIES for screens up to 768px */
 
 @media (max-width: 768px) {
   .main-content-wrapper {
@@ -648,28 +644,5 @@ body.inner-page-background {
 
   .program-item .program-description {
     font-size: 1em;
-  }
-
-  .section-heading {
-    font-size: 2em;
-  }
-
-  .spa-benefits {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-section h1 {
-    font-size: 3em;
-    line-height: 1.2em;
-  }
-
-  .hero-section p {
-    font-size: 1.5em;
-  }
-
-  .hero-section,
-  .features-section {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }

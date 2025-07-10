@@ -1,0 +1,13 @@
+# Ignore VS Code history files
+.history/
+
+# Ignore cache files and package dependencies (if you use them in the future)
+node_modules/
+.env
+venv/
+__pycache__/
+*.log
+*.swp
+*.swo
+*.tmp
+*.DS_Store
