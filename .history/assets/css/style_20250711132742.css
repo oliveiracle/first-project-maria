@@ -408,7 +408,6 @@ body.contact-page-background {
 /* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
 
 body.inner-page-background {
-  background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
   overflow-y: auto;
@@ -434,14 +433,14 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .page-description {
   font-family: var(--font-primary);
-  font-size: 1.7em;
+  font-size: 1.1em;
   color: #666;
   line-height: 1.6;
   max-width: 700px;

@@ -1,7 +1,6 @@
-/* I NEDEED HELP TO MAKE THE CSS CODE MORE FUNCTIONAL */
-/* I USED ONLINE RESOURCES AS TOOL TO HELP ME UNDERSTAND */
+/* PROFESSOR JO TAUGHT ABOUT VARIABLES IN THE BOARDGAMES PROJECT*/
+/* I USED HER MODEL AS A EXAMPLE FOR MINE*/
 
-/* PROFESSOR JO TAUGTH ABOUT CSS VARIABLES IN THE BOARDGAMES PROJECT */
 :root {
   --highlighted-color: #fff;
   --primary-color: #1a1a1a;
@@ -19,12 +18,11 @@
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
   overflow-y: auto;
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed; /* Background image for index.html */
   line-height: 1.6;
@@ -61,7 +59,7 @@ body {
 .nav-links ul {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 0px;
   list-style: none;
   padding: 10px 20px;
 }
@@ -93,7 +91,7 @@ body {
   font-weight: 600;
   color: var(--primary-color);
   background-color: transparent;
-  border: 1px solid var(--primary-color);
+  border: purple;
   border-radius: 2px;
   transition: all 0.3s ease;
   flex-grow: 0;
@@ -165,7 +163,6 @@ footer {
   text-align: center;
 }
 
-/* I NEEDED EXTRA HELP TO UNDERSTAND GRID LAYOUTS */
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -405,8 +402,6 @@ body.contact-page-background {
 /*==================================================== */
 /*==================================================== */
 /* Style for programs page */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
-
 body.inner-page-background {
   background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
@@ -434,14 +429,14 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .page-description {
   font-family: var(--font-primary);
-  font-size: 1.7em;
+  font-size: 1.1em;
   color: #666;
   line-height: 1.6;
   max-width: 700px;
@@ -449,7 +444,6 @@ body.inner-page-background {
 }
 
 /* --- Services Cards menu  --- */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
 .programs-grid-section {
   padding-top: 30px; /* Espaço entre a intro e o grid */
 }
@@ -535,10 +529,11 @@ body.inner-page-background {
 /*==================================================== */
 /*==================================================== */
 
-/* I NEEDED EXTRA HELP TO MAKE THE RESPONSIVENESS WORK */
-/* Media queries section */
+/* MEDIA QUERIES */
+/* I NEEDED EXTRA HELP WITH THE MEDIA QUERIES */
 
 /* Tablet e Mobile screens up to 992px */
+
 @media (max-width: 992px) {
   /* Background for index.html for mobile devices */
   body.index-background {
@@ -600,9 +595,7 @@ body.inner-page-background {
     transition: all 0.3s ease;
   }
 
-  /* I NEEDED EXTRA HELP TO MAKE THE MENU TOGGLE WORK */
-  /* ONLINE TUTORIALS HELPED ME TO UNDERSTAND HOW TO MAKE THE MENU TOGGLE WORK */
-
+  /* I NEEDED EXTRA HELP ESPECIALLY WITH THE MENU TOGGLE ANIMATION */
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
@@ -617,16 +610,17 @@ body.inner-page-background {
 
   .site-header .logo,
   .site-header .button-cta {
-    display: none; /* Oculta logo e botão no mobile para o menu ocupar o espaço */
+    display: none;
   }
 
+  /* Faz a navegação ocupar a tela inteira quando o menu estiver aberto */
   .nav-links {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
-    background: url("../images/S1.jpg") center center/cover no-repeat fixed; /* I updated the background image for the menu */
+    background: url("../images/S1.jpg") center center/cover no-repeat fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -653,7 +647,6 @@ body.inner-page-background {
 /*=================================================== */
 
 /* MEDIA QUERIES for screens up to 768px - Updtaed for better responsiveness */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
 
 @media (max-width: 768px) {
   .main-content-wrapper {

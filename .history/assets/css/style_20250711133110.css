@@ -434,7 +434,7 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }

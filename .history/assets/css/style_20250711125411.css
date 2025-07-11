@@ -1,13 +1,5 @@
-/* I NEDEED HELP TO MAKE THE CSS CODE MORE FUNCTIONAL */
-/* I USED ONLINE RESOURCES AS TOOL TO HELP ME UNDERSTAND */
-
-/* PROFESSOR JO TAUGTH ABOUT CSS VARIABLES IN THE BOARDGAMES PROJECT */
-:root {
-  --highlighted-color: #fff;
-  --primary-color: #1a1a1a;
-  --font-primary: "Raleway", sans-serif;
-  --font-titles: "Cormorant Garamond", serif;
-}
+/* PROFESSOR JO TAUGHT ABOUT VARIABLES IN THE BOARDGAMES PROJECT*/
+/* I USED HER MODEL AS A EXAMPLE FOR MINE*/
 
 * {
   margin: 0;
@@ -19,17 +11,18 @@
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed; /* Background image for index.html */
   line-height: 1.6;
 }
 
+/* HEADER DESKTOP STYLES */
 .site-header {
   background: transparent;
   padding: 10px 40px;
@@ -41,15 +34,34 @@ body {
   z-index: 1000;
 }
 
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  position: relative;
+/* HIDE CHECKBOOK AND MENU TOGGLE IN DESKTOP */
+#menu-toggle-checkbox,
+.menu-toggle {
+  display: none;
 }
 
-/* Rule applied for the nav links */
+/* Rule applied for the logo */
+/* I will not use the logo for now, because it migth cause problems on the layout */
+.logo {
+  display: none;
+  order: 2;
+  font-family: var(--font-titles);
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-location {
+  font-size: 12px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*NAVLINKS STYLES */
 .nav-links {
   order: 1;
   display: flex;
@@ -61,9 +73,18 @@ body {
 .nav-links ul {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 0px;
   list-style: none;
   padding: 10px 20px;
+}
+
+/* Rule applied for the header */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
 }
 
 .nav-links ul li a,
@@ -93,7 +114,7 @@ body {
   font-weight: 600;
   color: var(--primary-color);
   background-color: transparent;
-  border: 1px solid var(--primary-color);
+  border: purple;
   border-radius: 2px;
   transition: all 0.3s ease;
   flex-grow: 0;
@@ -114,6 +135,8 @@ body {
   padding: 60px 0;
 }
 
+/* I NEEDED EXTRA HELP WITH THE GRID LAYOUT */
+/* I USED TUTORIAL AND ONLINE HELP TO UNDERSTAND AND CREATE THIS PART */
 .spa-benefits {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -165,7 +188,8 @@ footer {
   text-align: center;
 }
 
-/* I NEEDED EXTRA HELP TO UNDERSTAND GRID LAYOUTS */
+/* I NEEDED EXTRA HELP WITH THE FOOTER GRID */
+/* I USED TUTORIAL AND ONLINE HELP TO UNDERSTAND AND CREATE THIS PART */
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -256,27 +280,6 @@ footer {
   font-size: 18px;
   cursor: pointer;
   color: var(--primary-color);
-}
-
-/* Rule applied for the logo */
-/* I will not use the logo for now, because it migth cause problems on the layout */
-.logo {
-  display: none;
-  order: 2;
-  font-family: var(--font-titles);
-  font-size: 24px;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-align: center;
-  margin: 0 auto;
-}
-
-.logo-location {
-  font-size: 12px;
-  color: var(--primary-color);
-  text-transform: uppercase;
-  margin-top: 5px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .menu-toggle {
@@ -405,8 +408,6 @@ body.contact-page-background {
 /*==================================================== */
 /*==================================================== */
 /* Style for programs page */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
-
 body.inner-page-background {
   background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
@@ -434,14 +435,14 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .page-description {
   font-family: var(--font-primary);
-  font-size: 1.7em;
+  font-size: 1.1em;
   color: #666;
   line-height: 1.6;
   max-width: 700px;
@@ -449,16 +450,16 @@ body.inner-page-background {
 }
 
 /* --- Services Cards menu  --- */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
+/* I USED TUTORIAL AND ONLINE HELP TO UNDERSTAND AND CREATE THIS PART */
 .programs-grid-section {
-  padding-top: 30px; /* Espaço entre a intro e o grid */
+  padding-top: 30px;
 }
 
 .programs-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  padding: 0 20px; /* Adds some padding to the sides on smaller screens */
+  padding: 0 20px;
 }
 
 .program-card {
@@ -535,10 +536,12 @@ body.inner-page-background {
 /*==================================================== */
 /*==================================================== */
 
-/* I NEEDED EXTRA HELP TO MAKE THE RESPONSIVENESS WORK */
-/* Media queries section */
+/* MEDIA QUERIES */
+/* I NEEDED EXTRA HELP WITH THE MEDIA QUERIES */
+/* I USED TUTORIAL AND ONLINE HELP TO UNDERSTAND AND CREATE THIS PART */
 
 /* Tablet e Mobile screens up to 992px */
+
 @media (max-width: 992px) {
   /* Background for index.html for mobile devices */
   body.index-background {
@@ -600,8 +603,9 @@ body.inner-page-background {
     transition: all 0.3s ease;
   }
 
-  /* I NEEDED EXTRA HELP TO MAKE THE MENU TOGGLE WORK */
-  /* ONLINE TUTORIALS HELPED ME TO UNDERSTAND HOW TO MAKE THE MENU TOGGLE WORK */
+  /* I NEEDED EXTRA HELP ESPECIALLY WITH THE MENU TOGGLE ANIMATION */
+  /* I USED TUTORIAL AND ONLINE HELP TO UNDERSTAND, CREATE AND ADAPT THIS PART TO MY PROJECT */
+  /* https://www.lambdatest.com/blog/css-toggle-switches/* => CSS TOGGLE SWITCHES */
 
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -617,16 +621,17 @@ body.inner-page-background {
 
   .site-header .logo,
   .site-header .button-cta {
-    display: none; /* Oculta logo e botão no mobile para o menu ocupar o espaço */
+    display: none;
   }
 
+  /* Faz a navegação ocupar a tela inteira quando o menu estiver aberto */
   .nav-links {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
-    background: url("../images/S1.jpg") center center/cover no-repeat fixed; /* I updated the background image for the menu */
+    background: url("../images/S1.jpg") center center/cover no-repeat fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -653,7 +658,6 @@ body.inner-page-background {
 /*=================================================== */
 
 /* MEDIA QUERIES for screens up to 768px - Updtaed for better responsiveness */
-/* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
 
 @media (max-width: 768px) {
   .main-content-wrapper {

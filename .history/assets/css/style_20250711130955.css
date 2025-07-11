@@ -1,7 +1,7 @@
-/* I NEDEED HELP TO MAKE THE CSS CODE MORE FUNCTIONAL */
-/* I USED ONLINE RESOURCES AS TOOL TO HELP ME UNDERSTAND */
-
 /* PROFESSOR JO TAUGTH ABOUT CSS VARIABLES IN THE BOARDGAMES PROJECT */
+/* I AM USING CSS VARIABLES TO MAKE THE CODE MORE ORGANIZED AND EASIER TO READ */
+/* I NEEDED EXTRA HELP TO UNDERSTAND HOW TO USE CSS VARIABLES */
+
 :root {
   --highlighted-color: #fff;
   --primary-color: #1a1a1a;
@@ -19,7 +19,7 @@
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
 }
 
@@ -61,7 +61,7 @@ body {
 .nav-links ul {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 0px;
   list-style: none;
   padding: 10px 20px;
 }
@@ -93,7 +93,7 @@ body {
   font-weight: 600;
   color: var(--primary-color);
   background-color: transparent;
-  border: 1px solid var(--primary-color);
+  border: purple;
   border-radius: 2px;
   transition: all 0.3s ease;
   flex-grow: 0;
@@ -434,14 +434,14 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .page-description {
   font-family: var(--font-primary);
-  font-size: 1.7em;
+  font-size: 1.1em;
   color: #666;
   line-height: 1.6;
   max-width: 700px;
@@ -535,10 +535,10 @@ body.inner-page-background {
 /*==================================================== */
 /*==================================================== */
 
-/* I NEEDED EXTRA HELP TO MAKE THE RESPONSIVENESS WORK */
 /* Media queries section */
 
 /* Tablet e Mobile screens up to 992px */
+
 @media (max-width: 992px) {
   /* Background for index.html for mobile devices */
   body.index-background {
@@ -620,13 +620,14 @@ body.inner-page-background {
     display: none; /* Oculta logo e botão no mobile para o menu ocupar o espaço */
   }
 
+  /* Faz a navegação ocupar a tela inteira quando o menu estiver aberto */
   .nav-links {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
-    background: url("../images/S1.jpg") center center/cover no-repeat fixed; /* I updated the background image for the menu */
+    background: url("../images/S1.jpg") center center/cover no-repeat fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
