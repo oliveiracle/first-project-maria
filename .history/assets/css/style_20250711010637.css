@@ -614,9 +614,10 @@ body.inner-page-background {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 70%;
+    max-width: 300px;
     height: 100vh;
-    background: url("../images/S1.jpg") center center/cover no-repeat fixed;
+    background-color: transparent;
     flex-direction: column;
     justify-content: center;
     align-items: center;
