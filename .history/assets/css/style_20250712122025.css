@@ -184,7 +184,9 @@ footer {
   color: var(--primary-color);
   font-size: 20px;
   transition: color 0.3s ease;
+  border: 1px solid var(--primary-color);
   padding: 8px;
+  border-radius: 50%;
   z-index: 10;
   position: relative;
 }

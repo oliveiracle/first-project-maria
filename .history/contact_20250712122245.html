@@ -5,31 +5,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Set viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Discover our natural and holistic programs at MARIA Wellness & Spa."
     />
     <title>Programs | MARIA Spa Website</title>
-
-    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       href="assets/images/android-chrome-192x192.png"
     />
-
-    <!-- Fonts Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
-    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
       rel="stylesheet"
@@ -39,11 +30,9 @@
       rel="stylesheet"
     />
   </head>
-
-  <body class="index-background">
+  <body class="contact-page-background">
     <header class="site-header">
       <input type="checkbox" id="menu-toggle-checkbox" />
-
       <label
         for="menu-toggle-checkbox"
         class="menu-toggle"
@@ -54,14 +43,11 @@
         <span class="bar"></span>
       </label>
       <div class="logo">
-        <!-- Logo Deactivated - i will not because it might cause problems on the layout-->
         <a href="index.html" style="text-decoration: none; color: inherit">
           <div class="logo-text">MARIA | WELLNESS & SPA</div>
           <div class="logo-location">LONDON | PARIS | NY</div>
         </a>
       </div>
-
-      <!-- Here are the links on the top page -->
       <nav class="nav-links">
         <ul>
           <li><a href="index.html">HOME</a></li>
@@ -69,57 +55,53 @@
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-
-      <a href="contact.html" class="button-cta">BOOK YOUR PROGRAM</a>
     </header>
-
-    <!-- Here is the main text H1 and P in the centre of the site -->
-    <main class="hero-section">
-      <div class="main-message">
-        <h1>MARIA — Quiet Luxury. Deep Presence.</h1>
-        <p>Relaxing treatments and peaceful spaces to make you feel better.</p>
-      </div>
-    </main>
-
-    <!-- This is the Favicon Icons section -->
-    <section class="features-section">
-      <div class="container">
-        <div class="spa-benefits">
-          <div class="feature-item">
-            <i class="fa-solid fa-flask-vial fa-4x"></i>
-            <p>Science meets calm</p>
+    <main class="content-wrapper">
+      <section class="contact-section">
+        <h2>Send us a Message</h2>
+        <p>Questions or bookings? Fill the form and we'll reply soon.</p>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Name" required />
           </div>
-          <div class="feature-item">
-            <i class="fa-solid fa-users-line fa-4x"></i>
-            <p>Over 50 leading specialists</p>
+          <div class="form-group">
+            <label for="emailAddress">Email Address</label>
+            <input
+              id="emailAddress"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
           </div>
-          <div class="feature-item">
-            <i class="fa-solid fa-hourglass-start fa-4x"></i>
-            <p>20 years of experience</p>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Message"
+              rows="6"
+              required
+            ></textarea>
           </div>
-          <div class="feature-item">
-            <i class="fa-solid fa-spa fa-4x"></i>
-            <p>A range of holistic treatments</p>
-          </div>
+          <button type="submit" class="form-button">Submit</button>
+        </form>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.58519293703!2d-0.26640439335624005!3d51.52852620202378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sie!4v1750989793402!5m2!1sen!2sie"
+            style="border: 0; border-radius: 18px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Maps showing MARIA Wellness & Spa location in London"
+          >
+            ></iframe
+          >
         </div>
-      </div>
-    </section>
-
+      </section>
+    </main>
     <footer>
-      <!-- Here is The Footer ( social links, address and copyright )-->
       <div class="container">
         <div class="footer-grid">
-          <div class="footer-address">
-            <p>
-              <a
-                href="https://maps.app.goo.gl/iLgQMbWuFq2zFYVX7"
-                target="_blank"
-                rel="noopener"
-              >
-                123 Quiet Street, London, UK
-              </a>
-            </p>
-          </div>
           <div class="footer-copyright">
             <p>© 2025 MARIA Wellness & Spa</p>
           </div>
@@ -128,30 +110,33 @@
               <li>
                 <!-- Social media links -->
                 <a
-                  href="https://instagram.com"
+                  href="https://www.pinterest.com"
                   target="_blank"
-                  aria-label="Instagram"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  aria-label="Facebook"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://pinterest.com"
-                  target="_blank"
-                  aria-label="Pinterest"
+                  aria-label="Pinterest (opens in a new tab)"
                 >
                   <i class="fa-brands fa-pinterest-p"></i>
-                </a>
+                  ></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  aria-label="Instagram (opens in a new tab)"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  ></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  aria-label="Facebook (opens in a new tab)"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  ></a
+                >
               </li>
             </ul>
           </div>

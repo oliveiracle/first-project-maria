@@ -184,9 +184,7 @@ footer {
   color: var(--primary-color);
   font-size: 20px;
   transition: color 0.3s ease;
-  padding: 8px;
-  z-index: 10;
-  position: relative;
+  border: 1px solid var(--primary-color);
 }
 
 .footer-social a:hover {
@@ -436,14 +434,14 @@ body.inner-page-background {
 
 .page-title {
   font-family: var(--font-titles);
-  font-size: 4.5em;
+  font-size: 3.5em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .page-description {
   font-family: var(--font-primary);
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #666;
   line-height: 1.6;
   max-width: 700px;
