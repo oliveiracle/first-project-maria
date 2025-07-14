@@ -543,11 +543,6 @@ body.inner-page-background {
 
 /* Tablet e Mobile screens up to 992px */
 @media (max-width: 992px) {
-  .spa-benefits {
-    grid-template-columns: 1fr; /* Single column for mobile */
-    gap: 30px; /* Reduced gap for mobile */
-  }
-
   /* Background for index.html for mobile devices */
   body.index-background {
     background: url("../images/Body1.jpg") center center / cover no-repeat
@@ -557,13 +552,9 @@ body.inner-page-background {
     overflow-x: hidden;
   }
 
-  footer {
-    padding: 40px 20px 0 !important; /* Adjust padding for mobile */
-  }
-
   .footer-grid {
-    grid-template-columns: 1fr; /* Change to single column for mobile */
-    gap: 15px; /* Adjust gap for mobile */
+    padding: 80px 0 40px 0;
+    text-align: center;
   }
 
   /* Background for programs.html for mobile devices */
@@ -674,10 +665,6 @@ body.inner-page-background {
 /* I NEEDED EXTRA HELP TO MAKE THE PROGRAMS PAGE RESPONSIVE */
 
 @media (max-width: 768px) {
-  footer {
-    padding: 20px 10px 0px !important; /* Reduced padding for smaller screens */
-  }
-
   .main-content-wrapper {
     margin: 20px 15px;
     padding: 25px;
@@ -700,13 +687,12 @@ body.inner-page-background {
     font-size: 1em;
   }
 
-  .spa-benefits {
-    grid-template-columns: 1fr; /* Single column for mobile */
-    gap: 30px; /* Reduced gap for mobile */
-  }
-
   .section-heading {
     font-size: 2em;
+  }
+
+  .spa-benefits {
+    grid-template-columns: 1fr;
   }
 
   .hero-section h1 {

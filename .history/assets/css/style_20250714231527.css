@@ -543,6 +543,11 @@ body.inner-page-background {
 
 /* Tablet e Mobile screens up to 992px */
 @media (max-width: 992px) {
+  main {
+    margin-top: 20px;
+    min-height: calc(100vh - 180px); /* Adjusts main content height */
+  }
+
   .spa-benefits {
     grid-template-columns: 1fr; /* Single column for mobile */
     gap: 30px; /* Reduced gap for mobile */

@@ -543,9 +543,15 @@ body.inner-page-background {
 
 /* Tablet e Mobile screens up to 992px */
 @media (max-width: 992px) {
-  .spa-benefits {
-    grid-template-columns: 1fr; /* Single column for mobile */
-    gap: 30px; /* Reduced gap for mobile */
+  main {
+    margin-top: 20px;
+    min-height: calc(100vh - 180px); /* Adjusts main content height */
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.9
+    ); /* Adds a slight background color for contrast */
   }
 
   /* Background for index.html for mobile devices */
@@ -700,13 +706,12 @@ body.inner-page-background {
     font-size: 1em;
   }
 
-  .spa-benefits {
-    grid-template-columns: 1fr; /* Single column for mobile */
-    gap: 30px; /* Reduced gap for mobile */
-  }
-
   .section-heading {
     font-size: 2em;
+  }
+
+  .spa-benefits {
+    grid-template-columns: 1fr;
   }
 
   .hero-section h1 {
