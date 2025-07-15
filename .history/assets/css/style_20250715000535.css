@@ -461,8 +461,9 @@ body.inner-page-background {
   padding-top: 30px; /* Espaço entre a intro e o grid */
 }
 
-.visually-hidden {
+.programs.grid-section h2 {
   display: none; /* Hides the section heading */
+  color: yellow;
 }
 
 .programs-grid-container {
