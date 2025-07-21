@@ -1,7 +1,5 @@
 # MARIA | Wellness & Spa
 
- Teste
- 
 MARIA | Wellness & Spa is a responsive front-end website created as part of the Code Institute Full-Stack Developer course. It represents a fictional high-end spa that values serenity, elegance, and deep human presence. The site aims to give users a peaceful digital experience, aligned with the brand’s motto: **“Quiet Luxury. Deep Presence.”**
 
 Its main purpose is to introduce the spa’s concept, showcase its curated treatments, and make it easy for visitors to learn more or get in touch — all through a minimalist, mobile-friendly design.
@@ -16,14 +14,14 @@ Its main purpose is to introduce the spa’s concept, showcase its curated treat
 Wireframes were created for both desktop and mobile to plan the layout and user flow before building the site.
 
  **Desktop Layouts**
-![Screenshot of the homepage](documentation/wireframes-desktop/wireframe-desktop.jpg)
-![Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
-![Screenshot of the programs page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
+[Screenshot of the homepage](documentation/wireframes-desktop/wireframe-desktop.jpg)
+[Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
+[Screenshot of the programs page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
 
  **Mobile Layouts**
- [Screenshot of the homepage](documentation/wireframes-mobile/wireframe-mobile-contact.jpg)
-![Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
-![Screenshot of the programs page](documentation/wireframes-mobile/wireframe-mobile-programs.jpg)
+[Screenshot of the homepage](documentation/wireframes-mobile/wireframe-mobile-contact.jpg)
+[Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
+[Screenshot of the programs page](documentation/wireframes-mobile/wireframe-mobile-programs.jpg)
 
 ## Features
 
