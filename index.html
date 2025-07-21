@@ -1,34 +1,27 @@
-<!--I NEDEED HELP TO MAKE THE CONTACT. HTML CODE MORE FUNCTIONAL -->
-<!--I USED ONLINE RESOURCES AS TOOL TO HELP ME UNDERSTAND -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags and page setup -->
     <meta charset="UTF-8" />
-    <!-- Set viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Discover our natural and holistic programs at MARIA Wellness & Spa."
     />
-    <title>HOME | MARIA Spa Website</title>
-
+    <title>Contact | MARIA Spa Website</title>
     <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       href="assets/images/android-chrome-192x192.png"
     />
-
-    <!-- Fonts Awesome -->
+    <!-- Font Awesome for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
-    <!-- CSS -->
+    <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
@@ -39,11 +32,11 @@
       rel="stylesheet"
     />
   </head>
-
   <body class="index-background">
+    <!-- Site Header with Navigation and CTA Button -->
     <header class="site-header">
-      <input type="checkbox" id="menu-toggle-checkbox" />
-
+      <!-- Hamburger Menu Toggle for Mobile -->
+      <input type="checkbox" id="menu-toggle-checkbox" hidden />
       <label
         for="menu-toggle-checkbox"
         class="menu-toggle"
@@ -53,28 +46,19 @@
         <span class="bar"></span>
         <span class="bar"></span>
       </label>
-      <div class="logo">
-        <!-- Logo Desactivated - i will not because it might cause problems on the layout-->
-        <a href="index.html" style="text-decoration: none; color: inherit">
-          <div class="logo-text">MARIA | WELLNESS & SPA</div>
-          <div class="logo-location">LONDON | PARIS | NY</div>
-        </a>
-      </div>
-
-      <!-- Here are the links on the top page -->
-      <nav class="nav-links">
+      <!-- Main Navigation Links -->
+      <nav class="nav-links" aria-label="Main navigation">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="programs.html">PROGRAMS</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-
+      <!-- Call-to-Action Button -->
       <a href="contact.html" class="button-cta">BOOK YOUR PROGRAM</a>
     </header>
-
-    <!-- Here is the main text H1 and P in the centre of the site -->
     <main>
+      <!-- Hero Section with Main Message -->
       <section class="hero-section">
         <div class="main-message">
           <h1>MARIA — Quiet Luxury. Deep Presence.</h1>
@@ -83,27 +67,32 @@
           </p>
         </div>
       </section>
-
+      <!-- Features Section Highlighting Spa Benefits -->
       <section class="features-section">
         <div class="container">
-          <!-- This H2 is in the code only for code validation purposes, it does not look good  aesthetically and well positioned 
-           on the site and I decided not to use it with the display:none rule in the css -->
-          <h2 class="section-heading">Our Unique Approach to Wellness</h2>
-          <div class="spa-benefits"></div>
+          <!-- Hidden Section Heading for Accessibility/SEO -->
+          <h2 class="section-heading" style="display: none">
+            Our Unique Approach to Wellness
+          </h2>
           <div class="spa-benefits">
+            <!-- Individual Feature Items -->
             <div class="feature-item">
+              <!-- Science Icon -->
               <i class="fa-solid fa-flask-vial fa-4x"></i>
               <p>Science meets calm</p>
             </div>
             <div class="feature-item">
+              <!-- Specialists Icon -->
               <i class="fa-solid fa-users-line fa-4x"></i>
               <p>Over 50 leading specialists</p>
             </div>
             <div class="feature-item">
+              <!-- Experience Icon -->
               <i class="fa-solid fa-hourglass-start fa-4x"></i>
               <p>20 years of experience</p>
             </div>
             <div class="feature-item">
+              <!-- Holistic Treatments Icon -->
               <i class="fa-solid fa-spa fa-4x"></i>
               <p>A range of holistic treatments</p>
             </div>
@@ -111,29 +100,29 @@
         </div>
       </section>
     </main>
-
-    <!-- Here is the footer - social links, adress and copyright-->
+    <!-- Footer Section with Address, Copyright, and Social Links -->
     <footer>
       <div class="container">
         <div class="footer-grid">
-          <div class="footer-address">
-            <p>
-              <a
-                href="https://maps.app.goo.gl/iLgQMbWuFq2zFYVX7"
-                target="_blank"
-                rel="noopener"
-              >
-                123 Quiet Street, London, UK
-              </a>
-            </p>
-          </div>
+          <!-- Address with Google Maps Link -->
+          <address class="footer-address">
+            <a
+              href="https://maps.app.goo.gl/iLgQMbWuFq2zFYVX7"
+              target="_blank"
+              rel="noopener"
+            >
+              123 Quiet Street, London, UK
+            </a>
+          </address>
+          <!-- Copyright Information -->
           <div class="footer-copyright">
-            <p>© 2025 MARIA Wellness & Spa</p>
+            <p>&copy; 2025 MARIA Wellness & Spa</p>
           </div>
+          <!-- Social Media Links -->
           <div class="footer-social">
             <ul>
               <li>
-                <!-- Social media links -->
+                <!-- Instagram Link -->
                 <a
                   href="https://instagram.com"
                   target="_blank"
@@ -143,6 +132,7 @@
                 </a>
               </li>
               <li>
+                <!-- Facebook Link -->
                 <a
                   href="https://facebook.com"
                   target="_blank"
@@ -152,6 +142,7 @@
                 </a>
               </li>
               <li>
+                <!-- Pinterest Link -->
                 <a
                   href="https://pinterest.com"
                   target="_blank"
