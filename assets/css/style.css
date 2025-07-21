@@ -28,7 +28,8 @@ body {
 
 body {
   font-family: var(--font-primary);
-  background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
+  background: url("../images/pexels-anna-nekrashevich-8516697.jpg") center
+    center/cover no-repeat fixed;
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -605,6 +606,8 @@ body.inner-page-background {
   }
 
   /* I NEEDED EXTRA HELP TO MAKE ON THE MENU TOGGLE */
+  /* I USED ONLINE RESOURCES TO HELP ME WITH THE MENU TOGGLE */
+
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
