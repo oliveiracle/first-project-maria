@@ -503,7 +503,7 @@ body.inner-page-background {
 .program-description {
   font-family: var(--font-primary);
   font-size: 0.95em;
-  color: #555;
+  color: #777;
   line-height: 1.5;
   margin-bottom: 20px;
 }

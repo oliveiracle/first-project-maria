@@ -1,5 +1,3 @@
-<!-- I NEEDED EXTRA HELP ON THIS PAGE - I USED ONLINE RESOURCES AND TOOLS-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,12 +15,12 @@
       type="image/png"
       href="assets/images/android-chrome-192x192.png"
     />
-    <!-- Font Awesome for social icons -->
+    <!-- Font Awesome for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <!-- Main stylesheet -->
+    <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Google Fonts -->
     <link
@@ -34,11 +32,11 @@
       rel="stylesheet"
     />
   </head>
-  <body class="contact-page-background">
-    <!-- Site Header with navigation and logo -->
+  <body class="index-background">
+    <!-- Site Header with Navigation and CTA Button -->
     <header class="site-header">
-      <!-- Hamburger menu for mobile navigation -->
-      <input type="checkbox" id="menu-toggle-checkbox" />
+      <!-- Hamburger Menu Toggle for Mobile -->
+      <input type="checkbox" id="menu-toggle-checkbox" hidden />
       <label
         for="menu-toggle-checkbox"
         class="menu-toggle"
@@ -48,29 +46,23 @@
         <span class="bar"></span>
         <span class="bar"></span>
       </label>
-      <!-- Logo section -->
-      <div class="logo">
-        <a href="index.html" style="text-decoration: none; color: inherit">
-          <div class="logo-text">MARIA | WELLNESS & SPA</div>
-          <div class="logo-location">LONDON | PARIS | NY</div>
-        </a>
-      </div>
-      <!-- Navigation links -->
-      <nav class="nav-links">
+      <!-- Main Navigation Links -->
+      <nav class="nav-links" aria-label="Main navigation">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="programs.html">PROGRAMS</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
+      <!-- Call-to-Action Button -->
+      <a href="contact.html" class="button-cta">BOOK YOUR PROGRAM</a>
     </header>
 
+    <!-- Main Content -->
     <main class="content-wrapper">
-      <!-- Contact section with form and map -->
       <section class="contact-section">
         <h2>Send us a Message</h2>
         <p>Questions or bookings? Fill the form and we'll reply soon.</p>
-        <!-- Contact form -->
         <form action="#" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
@@ -104,7 +96,6 @@
           </div>
           <button type="submit" class="form-button">Submit</button>
         </form>
-        <!-- Embedded Google Map -->
         <div class="map-container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.58519293703!2d-0.26640439335624005!3d51.52852620202378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sie!4v1750989793402!5m2!1sen!2sie"
@@ -118,11 +109,10 @@
       </section>
     </main>
 
-    <!-- Footer with address, copyright, and social links -->
+    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="footer-grid">
-          <!-- Address -->
           <div class="footer-address">
             <p>
               <a
@@ -134,11 +124,9 @@
               </a>
             </p>
           </div>
-          <!-- Copyright -->
           <div class="footer-copyright">
             <p>© 2025 MARIA Wellness & Spa</p>
           </div>
-          <!-- Social media icons -->
           <div class="footer-social">
             <ul>
               <li>
