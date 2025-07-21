@@ -28,7 +28,7 @@ body {
 
 body {
   font-family: var(--font-primary);
-  background: url("../images/pexels-anna-nekrashevich-8516697.jpg") center
+  background: url("../images/Background.jpg") center
     center/cover no-repeat fixed;
   line-height: 1.6;
   overflow-x: hidden;
@@ -539,7 +539,7 @@ body.inner-page-background {
   }
 
   body.index-background {
-    background: url("../images/Body1.jpg") center center / cover no-repeat
+    background: url("../images/Background.jpg") center center / cover no-repeat
       scroll !important;
     background-attachment: scroll;
     overflow-y: auto;
@@ -557,14 +557,14 @@ body.inner-page-background {
 
   body.inner-page-background {
     background: #f8f8f8;
-    background-image: url("../images/Body.jpg");
+    background-image: url("../images/Background.jpg");
     background-attachment: scroll;
     overflow-y: auto;
     overflow-x: hidden;
   }
 
   main {
-    margin-top: 20px;
+    margin-top: 80px; /*Adjusted to breathe with the header*/
   }
 
   .site-header {
@@ -631,7 +631,7 @@ body.inner-page-background {
     left: -100%;
     width: 100%;
     height: 100vh;
-    background: url("../images/S1.jpg") center center/cover no-repeat fixed;
+    background: url("../images/Background.jpg") center center/cover no-repeat fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
