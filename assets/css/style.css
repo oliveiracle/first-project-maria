@@ -33,6 +33,7 @@ body {
     center/cover no-repeat fixed;
   line-height: 1.6;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 /* =========================
