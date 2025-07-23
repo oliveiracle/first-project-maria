@@ -128,8 +128,6 @@ You can view the deployed site here:
 
 ## Credits
 
-## Credits
-
 ### Content & Design Inspiration
 * **Primary Aesthetic:** The overall branding concept and service descriptions were heavily inspired by the official [La Prairie Spa](https://www.laprairie.com/en-us/spa) website.
 * **Color Palette:** The minimalist, monochromatic color scheme draws inspiration from the clean and sophisticated branding of Kim Kardashian's product lines.
