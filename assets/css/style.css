@@ -1,7 +1,7 @@
 /* This is the main CSS file for the MARIA Wellness & Spa website.
    It includes styles for the header, footer, hero section, features section,
    contact form, and other components. The design is responsive and uses CSS Grid
-   and Flexbox for layout. */
+   and Flexbox for layout */
 
 
 /* This section defines the root CSS variables for colors and fonts used throughout the site. */
@@ -222,8 +222,10 @@ footer {
 
 footer {
   padding: 80px 0 40px 0;
+  background: transparent !important;
   color: var(--primary-color);
   text-align: center;
+  position: relative; /* Ensures the footer remains properly positioned within the layout - feeback from the tutor Kah*/
 }
 
 .footer-grid {

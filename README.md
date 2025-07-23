@@ -72,7 +72,7 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 
 -   **Contact Page**
    ![Screenshot of the contact page](documentation/screenshots/contact.png)
-    -   Getting in touch is made easy. The Contact Page features a straightforward inquiry form and an embedded Google Map to help clients find the spa's location. Built-in form validation ensures that messages are sent correctly the first time, removing any friction for potential customers.
+    -   Getting in touch is made easy. The Contact Page features a straightforward inquiry form and an embedded Google Map to help clients find the spa's location. It uses the Formspree service to handle form submissions, ensuring inquiries are reliably sent to the site owner's email.
 
 -   **The Footer**  
    ![Screenshot of the footer ](documentation/footer.png)
@@ -143,4 +143,5 @@ You can view the deployed site here:
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
 * **Google:** Utilized for conceptual brainstorming, professional phrasing, and debugging assistance throughout the project.
 * **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
+* **Formspree:** Used as the form backend service to handle submissions from the contact page.
 
