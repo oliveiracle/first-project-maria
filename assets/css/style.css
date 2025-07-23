@@ -1,9 +1,10 @@
-/*I USED COPYLOT TOOL TO  ORGANIZE THIS CSS FILE*/
-/*I USED ONLINE RESOURCES TO HELP ME WITH THE CSS*/
+/* This is the main CSS file for the MARIA Wellness & Spa website.
+   It includes styles for the header, footer, hero section, features section,
+   contact form, and other components. The design is responsive and uses CSS Grid
+   and Flexbox for layout. */
 
-/* =========================
-  CSS VARIABLES
-  ========================= */
+
+/* This section defines the root CSS variables for colors and fonts used throughout the site. */
 :root {
   --highlighted-color: #fff;
   --primary-color: #1a1a1a;
@@ -11,9 +12,6 @@
   --font-titles: "Cormorant Garamond", serif;
 }
 
-/* =========================
-  RESET & BASE STYLES
-  ========================= */
 * {
   margin: 0;
   padding: 0;
@@ -27,18 +25,14 @@ body {
   overflow-y: auto;
 }
 
+/* This section styles the body and main header of the site. It sets the background image, font family, and header styles. */
 body {
   font-family: var(--font-primary);
-  background: url("../images/Background.jpg") center
-    center/cover no-repeat fixed;
+  background: url("../images/Background.jpg") center center/cover no-repeat fixed;
   line-height: 1.6;
-  overflow-x: hidden;
   min-height: 100vh;
 }
 
-/* =========================
-  HEADER & NAVIGATION
-  ========================= */
 .site-header {
   background: transparent;
   padding: 10px 40px;
@@ -58,6 +52,7 @@ body {
   position: relative;
 }
 
+/* This section styles the logo and navigation links in the header. It includes styles for the logo image and the navigation links. */
 .nav-links {
   order: 1;
   display: flex;
@@ -98,11 +93,9 @@ body {
   text-transform: none;
   padding: 10px 30px;
   font-weight: 600;
-  color: var(--primary-color);
   background-color: transparent;
   border: 1px solid var(--primary-color);
   border-radius: 2px;
-  transition: all 0.3s ease;
   flex-grow: 0;
   text-align: right;
 }
@@ -111,9 +104,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* =========================
-  MENU TOGGLE (MOBILE)
-  ========================= */
+/* I needed extra help to create a responsive menu toggle for mobile devices. */
 .menu-toggle {
   display: none;
   border: none;
@@ -126,9 +117,6 @@ body {
   display: none;
 }
 
-/* =========================
-  HERO SECTION
-  ========================= */
 .hero-section {
   padding: 100px 60px;
   text-align: center;
@@ -178,12 +166,10 @@ body {
   color: var(--primary-color);
 }
 
-/* =========================
-  FEATURES SECTION
-  ========================= */
 .features-section,
 .container,
-.footer-grid {
+.footer-grid,
+footer {
   background: transparent !important;
 }
 
@@ -234,12 +220,8 @@ body {
   transform: scale(1.1);
 }
 
-/* =========================
-  FOOTER
-  ========================= */
 footer {
   padding: 80px 0 40px 0;
-  background: transparent !important;
   color: var(--primary-color);
   text-align: center;
 }
@@ -281,18 +263,12 @@ footer {
   text-decoration: underline;
 }
 
-/* =========================
-  CONTAINER
-  ========================= */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* =========================
-  SECTION STYLE
-  ========================= */
 .section-style {
   height: 100vh;
   overflow: hidden;
@@ -300,14 +276,10 @@ footer {
   align-items: center;
 }
 
-/* =========================
-  CONTACT PAGE
-  ========================= */
+/* This section styles the contact page background and wrapper. It sets a background image and styles the contact form and section. */
 body.contact-page-background {
   background: url("../images/Body.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .contact-page-wrapper {
@@ -337,7 +309,6 @@ body.contact-page-background {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px 10px;
-  background-color: transparent;
   border-radius: 10px;
   transform: translateY(-80px);
   max-height: 90vh;
@@ -353,7 +324,6 @@ main {
   margin-top: 120px;
 }
 
-/* Form styles */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -377,6 +347,7 @@ main {
   height: 100px;
 }
 
+/* This is the button style for the contact form. It includes padding, font size, background color, and hover effects. */
 .form-button {
   order: 2;
   padding: 10px 20px;
@@ -388,7 +359,7 @@ main {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  transform: translateY(20px);
+  transform: translateY(20px); /* I needed extra help on this */
 }
 
 .map-container {
@@ -406,16 +377,10 @@ main {
   display: block;
 }
 
-/* =========================
-  PROGRAMS PAGE
-  ========================= */
-  /* I used online resources to help me with the programs page */
+/* This section styles the programs page background and main content wrapper. It sets a background image and styles the main content area. */
 body.inner-page-background {
-  background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .main-content-wrapper {
@@ -458,7 +423,7 @@ body.inner-page-background {
 .visually-hidden {
   display: none;
 }
-/* I used online resources to help me with this section */
+
 .programs-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -476,7 +441,7 @@ body.inner-page-background {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* I used online resources to help me with the programs card */
+/* I needed extra help to create a hover effect for the program cards. */
 .program-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
@@ -530,24 +495,19 @@ body.inner-page-background {
   background-color: #333;
 }
 
-/* I NEEDED EXTRA HELP TO MAKE THE MEDIA QUERIES RESPONSIVE */
-/* =========================
-  MEDIA QUERIES
-  ========================= */
-
-/* Tablet & Mobile screens up to 992px */
+/* This was the most difficult part of the project. I needed extra help to create a responsive grid layout for the spa benefits section. */
+/* MEDIA QUERIES */
+/* This is the media queries for larger screens, specifically for devices with a minimum width of 992px. It adjusts the layout and styles for better readability and usability on larger screens. */
 @media (max-width: 992px) {
   .spa-benefits {
     grid-template-columns: 1fr;
     gap: 30px;
   }
 
-  body.index-background {
-    background: url("../images/Background.jpg") center center / cover no-repeat
-      scroll !important;
+  body.index-background,
+  body.inner-page-background {
+    background: url("../images/Background.jpg") center center / cover no-repeat scroll !important;
     background-attachment: scroll;
-    overflow-y: auto;
-    overflow-x: hidden;
   }
 
   footer {
@@ -559,16 +519,8 @@ body.inner-page-background {
     gap: 15px;
   }
 
-  body.inner-page-background {
-    background: #f8f8f8;
-    background-image: url("../images/Background.jpg");
-    background-attachment: scroll;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
   main {
-    margin-top: 80px; /*Adjusted to breathe with the header*/
+    margin-top: 80px;
   }
 
   .site-header {
@@ -586,7 +538,7 @@ body.inner-page-background {
     height: 30px;
     cursor: pointer;
   }
-
+ /* The toggle-menu was very chanllenging to create. I needed extra help to create a responsive menu toggle for mobile devices. */
   .menu-toggle {
     display: flex;
     flex-direction: column;
@@ -609,9 +561,8 @@ body.inner-page-background {
     transition: all 0.3s ease;
   }
 
-  /* I NEEDED EXTRA HELP TO MAKE ON THE MENU TOGGLE */
-  /* I USED ONLINE RESOURCES TO HELP ME WITH THE MENU TOGGLE */
-
+  /* This part here was the most difficult part of the project. I needed extra help to create a responsive menu toggle for mobile devices. */
+  /* I used online resources to understand how to create a responsive menu toggle for mobile devices. */
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
@@ -658,7 +609,7 @@ body.inner-page-background {
   }
 }
 
-/* Screens up to 768px */
+/* This is the media queres for smaller screens, specifically for devices with a maximum width of 768px. It adjusts the layout and styles for better readability and usability on mobile devices. */
 @media (max-width: 768px) {
   footer {
     padding: 20px 10px 0px !important;
@@ -678,21 +629,9 @@ body.inner-page-background {
     gap: 20px;
   }
 
-  .program-item .program-title {
-    font-size: 1.5em;
-  }
-
-  .program-item .program-description {
-    font-size: 1em;
-  }
-
   .spa-benefits {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
-
-  .section-heading {
-    font-size: 2em;
   }
 
   .hero-section h1 {
