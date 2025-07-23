@@ -407,6 +407,7 @@ main {
 /* =========================
   PROGRAMS PAGE
   ========================= */
+  /* I used online resources to help me with the programs page */
 body.inner-page-background {
   background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
@@ -455,7 +456,7 @@ body.inner-page-background {
 .visually-hidden {
   display: none;
 }
-
+/* I used online resources to help me with this section */
 .programs-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -473,6 +474,7 @@ body.inner-page-background {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* I used online resources to help me with the programs card */
 .program-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
