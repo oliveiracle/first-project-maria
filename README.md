@@ -9,48 +9,74 @@ Its main purpose is to introduce the spa’s concept, showcase its curated treat
 
 [View the live project here](https://oliveiracle.github.io/first-project-maria/)
 
+## Technologies Used
+- HTML5
+- CSS3
+- Git & GitHub
+- VS Code
+
 ## UX Design
 
+### Colour Palette
+I chose a very simple color palette to bring the 'Quiet Luxury' theme to life. By sticking to soft whites, deep grays, and black, the goal was to create a calm and elegant space for the user. I avoided any bright colors to keep the focus on the content and maintain a serene feel.
+                                                                                    
+- **Charcoal:** Used for primary text, headers, and footers for high contrast.
+- **Medium Gray:** Used for secondary body text to be softer on the eyes.
+- **Off-White & Pure White:** Used for backgrounds and highlighted text to create a clean, serene canvas.
+
+### Typography
+For the fonts, I wanted to create a nice contrast. I used:
+
+- **Cormorant Garamond:** for the main titles to give the site that elegant, high-end personality.
+- **Raleway:** for paragraphs, buttons, and menus. It's a really clean and simple font, which makes all the information comfortable and easy to read on any screen.
+
 ### Wireframes
+
 Wireframes were created for both desktop and mobile to plan the layout and user flow before building the site.
 
- **Desktop Layouts**
-[Screenshot of the homepage](documentation/wireframes-desktop/wireframe-desktop.jpg)
-[Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
-[Screenshot of the programs page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
+#### Desktop - Home Page
+![Desktop Wireframe for the Home Page](documentation/wireframes-desktop/wireframe-desktop.jpg)
 
- **Mobile Layouts**
-[Screenshot of the homepage](documentation/wireframes-mobile/wireframe-mobile-contact.jpg)
-[Screenshot of the contact page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
-[Screenshot of the programs page](documentation/wireframes-mobile/wireframe-mobile-programs.jpg)
+#### Desktop - Contact Page
+![Desktop Wireframe for the Contact Page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
+
+#### Desktop - Programs Page
+![Desktop Wireframe for the Programs Page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
+
+---
+
+#### Mobile - Home Page
+![Mobile Wireframe for the Home Page](documentation/wireframes-mobile/wireframe-mobile-home.jpg)
+
+#### Mobile - Contact Page
+![Mobile Wireframe for the Contact Page](documentation/wireframes-mobile/wireframe-mobile-contact.jpg)
+
+#### Mobile - Programs Page
+![Mobile Wireframe for the Programs Page](documentation/wireframes-mobile/wireframe-mobile-programs.jpg)
 
 ## Features
 
 ### Existing Features
 
--   **Responsive Navigation Bar** [Screenshot of the mobile menu open](documentation/screenshots/m1.png)
-    -   A fixed top navigation bar that adapts across devices. On mobile, it becomes a hamburger menu. It includes links to all main pages and a “Book Your Program” button.
+-   **Responsive Navigation Bar** 
+   ![Screenshot of the mobile menu open](documentation/screenshots/m1.png)
+    -  The navigation bar is designed for an intuitive Browse experience. It stays fixed at the top for easy access and seamlessly transforms into a clean hamburger menu on mobile. This ensures users can find what they need—from treatment pages to the “Book Your Program” button—from anywhere on the site, on any device.
 
+-   **The Hero Section** 
+   ![Screenshot of the homepage](documentation/screenshots/home.png)
+    -   The first thing visitors see is a stunning, full-screen hero image paired with the brand's motto: "Quiet Luxury. Deep Presence." This serves as an immediate immersion into the spa's serene and high-end atmosphere, designed to capture attention and set a calm tone for the entire visit.
 
--   **The Hero Section** [Screenshot of the homepage](documentation/screenshots/home.png)
-    -   The homepage greets the user with a full-screen, high-quality background image and the brand's main tagline, "Quiet Luxury. Deep Presence." This creates an immediate sense of calm and luxury, setting the tone for the entire experience.
-    -   *This feature's value is to instantly communicate the brand's identity and capture the user's interest.*
+-   **Programs Page** 
+   ![Screenshot of the programs page](documentation/screenshots/programs.png)
+    -   Visitors can explore the spa's offerings on a visually-driven Programs page. Each treatment is presented in a clean "card" with a beautiful image and clear description, making it enjoyable for potential clients to browse and find a service that resonates with them. The grid layout is fully responsive.
 
+-   **Contact Page**
+   ![Screenshot of the contact page](documentation/screenshots/contact.png)
+    -   Getting in touch is made easy. The Contact Page features a straightforward inquiry form and an embedded Google Map to help clients find the spa's location. Built-in form validation ensures that messages are sent correctly the first time, removing any friction for potential customers.
 
--   **Programs Page** [Screenshot of the programs page](documentation/screenshots/programs.png)
-    -   A dedicated page featuring a grid of beautifully presented "program cards". Each card includes an image, title, description, and a "Book This Treatment" button. The layout is fully responsive and stacks cleanly on mobile devices.
-    -   *This feature provides a clear, organized, and visually appealing way for users to browse the services offered.*
-
-
--   **Contact Page**  [Screenshot of the contact page](documentation/screenshots/contact.png)
-    -   This page includes a simple and functional contact form for inquiries, along with an embedded Google Map for location reference. All form fields have validation to ensure data is submitted correctly.
-    -   *This provides a direct and easy way for potential clients to communicate with the spa.*
-
-
--   **The Footer**  ![Screenshot of the footer ](documentation/footer.png)
-    -   The footer is consistent across all pages and contains the spa's address and links to its social media profiles. All external links open in a new tab.
-    -   *This feature allows users to find key information and stay connected with the brand without interrupting their Browse experience.*
-
+-   **The Footer**  
+   ![Screenshot of the footer ](documentation/footer.png)
+    -   A clean footer is present on every page, providing easy access to the spa's address and social media profiles. This allows users to connect with the brand on other platforms or find key information at any point in their journey without interrupting their experience.
 
 ### Features Left to Implement
 
@@ -99,3 +125,19 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
 
 You can view the deployed site here:  
 👉 [https://oliveiracle.github.io/first-project-maria/](https://oliveiracle.github.io/first-project-maria/)
+
+## Credits
+
+### Content & Inspiration
+* The overall aesthetic, branding concept, and service descriptions were heavily inspired by the official [La Prairie Spa](https://www.laprairie.com/en-us/spa) website.
+* The core concepts for the README file structure were adapted from the Code Institute Full-Stack Developer course template.
+
+### Media
+* All photographic images used on the website were sourced from [Pexels](https://www.pexels.com/).
+* The icons used in the footer are from [Font Awesome](https://fontawesome.com/).
+
+### Acknowledgements
+* **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
+* **Google:** Utilized for conceptual brainstorming, professional phrasing, and debugging assistance throughout the project.
+* **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
+
