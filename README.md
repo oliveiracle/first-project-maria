@@ -128,15 +128,20 @@ You can view the deployed site here:
 
 ## Credits
 
-### Content & Inspiration
-* The overall aesthetic, branding concept, and service descriptions were heavily inspired by the official [La Prairie Spa](https://www.laprairie.com/en-us/spa) website.
-* The core concepts for the README file structure were adapted from the Code Institute Full-Stack Developer course template.
+## Credits
+
+### Content & Design Inspiration
+* **Primary Aesthetic:** The overall branding concept and service descriptions were heavily inspired by the official [La Prairie Spa](https://www.laprairie.com/en-us/spa) website.
+* **Color Palette:** The minimalist, monochromatic color scheme draws inspiration from the clean and sophisticated branding of Kim Kardashian's product lines.
+* **Minimalist Interface:** The clean, uncluttered user interface and focus on essential information were inspired by the interior design of the SpaceX Dragon spacecraft and the sober, screen-centric dashboard of Tesla vehicles.
+* **README Structure:** The core concepts for the README file structure were adapted from the Code Institute Full-Stack Developer course template.
 
 ### Media
 * All photographic images used on the website were sourced from [Pexels](https://www.pexels.com/).
 * The icons used in the footer are from [Font Awesome](https://fontawesome.com/).
 
 ### Acknowledgements
+* **Microsoft Paint:** Used for the initial wireframing process to map out the basic site structure.
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
 * **Google:** Utilized for conceptual brainstorming, professional phrasing, and debugging assistance throughout the project.
 * **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
