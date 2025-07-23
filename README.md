@@ -112,7 +112,7 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
     -   ![Lighthouse Accessibility Score of 100 - Home Mobile Page](documentation/lighthouse/home-mobile.png) 
 
 -   **Unfied Bugs**
--   No unfixed bugs are known at the time of submission.
+-   - **Minor Visual Issue on Tall Mobile Screens:** On very tall and narrow viewports (e.g., Samsung Galaxy S23 Ultra), if the page content on the homepage is shorter than the screen height, a small white bar may be visible below the footer. This is a cosmetic issue that does not affect site functionality or structural integrity. The decision was made to acknowledge it as a known issue for a future update, prioritizing the stability of the current layout over a complex CSS change that could introduce further issues.
 
 ## Deployment
 - This site was deployed using **GitHub Pages**. Below are the steps followed:
