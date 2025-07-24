@@ -131,10 +131,15 @@ You can view the deployed site here:
 ## Credits
 
 ### Content & Design Inspiration
-* **Primary Aesthetic:** The overall branding concept and service descriptions were heavily inspired by the official [La Prairie Spa](https://www.laprairie.com/en-us/spa) website.
-* **Color Palette:** The minimalist, monochromatic color scheme draws inspiration from the clean and sophisticated branding of Kim Kardashian's product lines.
-* **Minimalist Interface:** The clean, uncluttered user interface and focus on essential information were inspired by the interior design of the SpaceX Dragon spacecraft and the sober, screen-centric dashboard of Tesla vehicles.
-* **README Structure:** The core concepts for the README file structure were adapted from the Code Institute Full-Stack Developer course template.
+* **Primary Aesthetic:** My main goal for 'MARIA' was to create a feeling of calm, high-end wellness. I used the official **La Prairie Spa** (https://www.cliniquelaprairie.com/) website as my primary inspiration for the overall look and feel, guiding the project to match the "Quiet Luxury. Deep Presence." motto.
+
+ **Minimalist Interface:** I believe that 'less is more' is key to a luxury experience. For the clean and functional layout, I looked for inspiration outside of the spa world, in places like **Tesla** dashboards and **SpaceX** spacecraft interiors. Their focus on showing only what's essential inspired the site's simple design and generous use of empty space.
+
+
+* **Color Palette:**  This minimalist idea also guided my color choices. I was inspired by the simple, monochromatic branding of modern lines like those from **Kim Kardashian** brands (https://skknbykim.com/). I chose a palette of charcoal and whites to keep the site feeling serene and high-contrast, making sure the text is always easy to read.
+![Colour Palette](documentation/colour-palette.png).
+
+* **README Structure:**  To make sure this README was professional and easy to follow, I based its structure on the official **Code Institute** template.
 
 ### Media
 * All photographic images used on the website were sourced from [Pexels](https://www.pexels.com/).
@@ -146,4 +151,5 @@ You can view the deployed site here:
 * **Google:** Utilized for conceptual brainstorming, professional phrasing, and debugging assistance throughout the project.
 * **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
+* **Figma:** Used to design and create the final color palette graphic.
 

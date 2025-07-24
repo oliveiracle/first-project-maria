@@ -412,6 +412,7 @@ main {
 
 /* This section styles the programs page background and main content wrapper. It sets a background image and styles the main content area. */
 body.inner-page-background {
+  background: #f8f8f8;
   background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
 }
@@ -443,7 +444,7 @@ body.inner-page-background {
 .page-description {
   font-family: var(--font-primary);
   font-size: 1.2em;
-  color: #666;
+  color: #666666;
   line-height: 1.6;
   max-width: 700px;
   margin: 0 auto;
