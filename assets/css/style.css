@@ -31,6 +31,7 @@ body {
   background: url("../images/Background.jpg") center center/cover no-repeat fixed;
   line-height: 1.6;
   min-height: 100vh;
+  overflow-x:hidden;
 }
 
 .site-header {
@@ -118,12 +119,12 @@ body {
 }
 
 .hero-section {
-  padding: 100px 60px;
+  padding: 5vh 60px 0;
   text-align: center;
-  height: 30vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
 }
 
@@ -175,10 +176,12 @@ footer {
 
 .features-section {
   padding: 60px 0;
+  margin-top: -100vh;
 }
 
 .features-section h2 {
   display: none;
+  margin-top: 100px;
 }
 
 .spa-benefits {
@@ -220,11 +223,40 @@ footer {
   transform: scale(1.1);
 }
 
+
+/* =========================
+  PHILOSOPHY SECTION BELOW THE FEATURES SECTION
+========================= */
+.philosophy-section {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(5px); 
+  text-align: center;
+  margin-top: 100px;
+}
+
+.philosophy-section h2 {
+  font-family: var(--font-titles);
+  font-size: 3.5em;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.philosophy-section p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+
 footer {
   padding: 80px 0 40px 0;
   background: transparent !important;
   color: var(--primary-color);
-  text-align: center;
   position: relative; /* Ensures the footer remains properly positioned within the layout - feeback from the tutor Kah*/
 }
 
@@ -522,7 +554,7 @@ body.inner-page-background {
   }
 
   main {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
   .site-header {
@@ -649,5 +681,12 @@ body.inner-page-background {
   .features-section {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .philosophy-section h2 {
+    font-size: 2.5em;
+  }
+  .philosophy-section p {
+    font-size: 1.1em;
   }
 }
