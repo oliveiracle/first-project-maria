@@ -28,7 +28,7 @@ body {
 /* This section styles the body and main header of the site. It sets the background image, font family, and header styles. */
 body {
   font-family: var(--font-primary);
-  background: url("../images/Background.jpg") center center/cover no-repeat fixed;
+  background: url("../images/BG.jpg") center center/cover no-repeat fixed;
   line-height: 1.6;
   min-height: 100vh;
   overflow-x:hidden;
@@ -262,7 +262,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.85); 
   backdrop-filter: blur(5px); 
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px; /* This is the white stripe between the sections */
   margin-bottom: 25px;
   
 }
@@ -293,7 +293,7 @@ footer {
   padding: 100px 0;
   background-color: rgba(255, 255, 255, 0.85); 
   backdrop-filter: blur(5px); 
-  margin-bottom: 30px;
+  margin-bottom: 25px; /* This is the white stripe between the sections */
   padding-bottom: 80px; /* Added padding to create space below the section */
   text-align: left;
 }
@@ -375,12 +375,6 @@ footer {
   overflow: hidden;
   display: flex;
   align-items: center;
-}
-
-/* This section styles the contact page background and wrapper. It sets a background image and styles the contact form and section. */
-body.contact-page-background {
-  background: url("../images/Body.jpg") center center/cover no-repeat fixed;
-  background-attachment: scroll;
 }
 
 .contact-page-wrapper {
@@ -481,7 +475,6 @@ main {
 /* This section styles the programs page background and main content wrapper. It sets a background image and styles the main content area. */
 body.inner-page-background {
   background: #f8f8f8;
-  background: url("../images/Body1.jpg") center center/cover no-repeat fixed;
   background-attachment: scroll;
 }
 
@@ -608,7 +601,7 @@ body.inner-page-background {
 
   body.index-background,
   body.inner-page-background {
-    background: url("../images/Background.jpg") center center / cover no-repeat scroll !important;
+    background: url("../images/BG.jpg") center center / cover no-repeat scroll !important;
     background-attachment: scroll;
   }
 
@@ -688,7 +681,7 @@ body.inner-page-background {
     left: -100%;
     width: 100%;
     height: 100vh;
-    background: url("../images/Background.jpg") center center/cover no-repeat fixed;
+    background: url("../images/BG.jpg") center center/cover no-repeat fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
