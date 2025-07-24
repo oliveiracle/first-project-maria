@@ -14,6 +14,21 @@ Its main purpose is to introduce the spa’s concept, showcase its curated treat
 - Git & GitHub
 - VS Code
 
+## Site Goals & User Stories
+
+### Site Owner Goals
+- To create a professional and elegant online presence that reflects the "Quiet Luxury" brand identity of a high-end spa.
+- To clearly showcase the unique wellness programs and treatments offered.
+- To provide a simple and direct way for potential clients to make inquiries, generating business leads.
+
+### User Stories
+- As a first-time visitor, I want to quickly understand what MARIA Wellness & Spa offers on the homepage, so that I can efficiently decide if this service is for me and find my way around the site.
+- As a potential customer, I want to browse all available spa programs and treatments in a clear, organized layout, so I can understand the details of each service and find the one that best fits my wellness goals.
+- As a potential customer with questions, I want to easily find the spa's contact information, including a form and a map, so that I can have my questions answered.
+- As a user, I want the website to adapt seamlessly to any screen size (desktop, tablet, mobile), so that I can have an optimal and intuitive viewing experience on any device.
+- As a customer, I want to find links to the spa's social media accounts, so that I can follow the brand for updates and inspiration.
+- As a user with a visual or motor impairment, I want the site to be built with accessibility in mind, so that I can navigate and consume the content without barriers.
+
 ## UX Design
 
 ### Colour Palette
