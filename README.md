@@ -2,7 +2,6 @@
 
 MARIA | Wellness & Spa is a responsive front-end website created as part of the Code Institute Full-Stack Developer course. It represents a fictional high-end spa that values serenity, elegance, and deep human presence. The site aims to give users a peaceful digital experience, aligned with the brand’s motto: **“Quiet Luxury. Deep Presence.”**
 
-
 Its main purpose is to introduce the spa’s concept, showcase its curated treatments, and make it easy for visitors to learn more or get in touch — all through a minimalist, mobile-friendly design.
 
 ![Responsive Mockup](documentation/screenshots/responsive-mockup.png)
@@ -19,10 +18,7 @@ Its main purpose is to introduce the spa’s concept, showcase its curated treat
 
 ### Colour Palette
 I chose a very simple color palette to bring the 'Quiet Luxury' theme to life. By sticking to soft whites, deep grays, and black, the goal was to create a calm and elegant space for the user. I avoided any bright colors to keep the focus on the content and maintain a serene feel.
-                                                                                    
-- **Charcoal:** Used for primary text, headers, and footers for high contrast.
-- **Medium Gray:** Used for secondary body text to be softer on the eyes.
-- **Off-White & Pure White:** Used for backgrounds and highlighted text to create a clean, serene canvas.
+![Colour Palette](documentation/colour-palette.png)
 
 ### Typography
 For the fonts, I wanted to create a nice contrast. I used:
@@ -42,8 +38,6 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 
 #### Desktop - Programs Page
 ![Desktop Wireframe for the Programs Page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
-
----
 
 #### Mobile - Home Page
 ![Mobile Wireframe for the Home Page](documentation/wireframes-mobile/wireframe-mobile-home.jpg)
@@ -88,11 +82,14 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 ### Manual Testing
 A comprehensive testing plan was followed to ensure the site is functional, visually polished, and accessible across different devices.
 
-- All links were tested to ensure they go to the correct destinations.
-- The contact form was tested with both valid and invalid inputs.
-- External links were checked to open in a new tab.
-- The layout was tested on different screen sizes using Chrome DevTools.
-- Interactive elements like buttons and menus were tested for proper behavior.
+| Feature | Expected Outcome | Action | Result |
+|---|---|---|---|
+| **Navigation Links** | Each link navigates to the correct page. | Click on "HOME", "PROGRAMS", and "CONTACT" links on all pages. | ✅ Pass: All links navigate correctly. |
+| **"Book Your Program" Button** | Button navigates to the Contact page. | Click on the CTA button from the Home and Programs pages. | ✅ Pass: Button correctly links to `contact.html`. |
+| **Contact Form Submission** | On successful submission, the user is redirected to the Formspree "Thank You" page. | Fill out the form with valid data and click "Submit". | ✅ Pass: Form submits correctly and redirects. |
+| **Contact Form Validation** | Form prevents submission if fields are empty or email is invalid. | Attempt to submit the form with empty fields; then with an invalid email format. | ✅ Pass: Browser's built-in validation works as expected. |
+| **Footer Social Links** | Each social media icon opens the respective site in a new browser tab. | Click on the Instagram, Facebook, and Pinterest icons in the footer. | ✅ Pass: All links open in a new tab. |
+| **Responsiveness** | The site layout adapts correctly to different screen sizes. | Use Chrome DevTools to view the site on various device sizes (mobile, tablet, desktop). | ✅ Pass: The layout is fully responsive and maintains integrity. |r.
 
 ### Validator Testing
 
@@ -111,7 +108,6 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
     -   ![Lighthouse Accessibility Score of 100 - Contact Mobile Page](documentation/lighthouse/contact-mobile.png)
     -   ![Lighthouse Accessibility Score of 100 - Home Mobile Page](documentation/lighthouse/home-mobile.png) 
 
--   **Unfied Bugs**
 - ### Unfixed Bugs
 
 - **Minor Footer Overlap on Contact Page (Mobile):** My tutor kindly pointed out that the footer can overlap the map on the contact page on very tall mobile screens. I tried to fix this with a modern Flexbox layout, but unfortunately, it caused major issues and broke the design on the other pages. Since keeping the whole site stable and working is the top priority, I decided to undo that fix and leave this as a known, minor visual bug for now.
@@ -131,13 +127,9 @@ You can view the deployed site here:
 ## Credits
 
 ### Content & Design Inspiration
-* **Primary Aesthetic:** My main goal for 'MARIA' was to create a feeling of calm, high-end wellness. I used the official **La Prairie Spa** (https://www.cliniquelaprairie.com/) website as my primary inspiration for the overall look and feel, guiding the project to match the "Quiet Luxury. Deep Presence." motto.
+**Primary Aesthetic:** My main goal for 'MARIA' was to create a feeling of calm, high-end wellness. I used the official [**La Prairie Spa**](https://www.cliniquelaprairie.com/) website as my primary inspiration for the overall look and feel, guiding the project to match the "Quiet Luxury. Deep Presence." motto.
 
- **Minimalist Interface:** I believe that 'less is more' is key to a luxury experience. For the clean and functional layout, I looked for inspiration outside of the spa world, in places like **Tesla** dashboards and **SpaceX** spacecraft interiors. Their focus on showing only what's essential inspired the site's simple design and generous use of empty space.
-
-
-* **Color Palette:**  This minimalist idea also guided my color choices. I was inspired by the simple, monochromatic branding of modern lines like those from **Kim Kardashian** brands (https://skknbykim.com/). I chose a palette of charcoal and whites to keep the site feeling serene and high-contrast, making sure the text is always easy to read.
-![Colour Palette](documentation/colour-palette.png).
+ * **Minimalist Interface:** I believe that 'less is more' is key to a luxury experience. For the clean and functional layout, I looked for inspiration outside of the spa world, in places like [**Tesla dashboards**](https://www.tesla.com/ownersmanual/models/en_us/GUID-A5F2B9D0-E7C8-40F5-9642-58F3657B123E.html) and the [**SpaceX Dragon spacecraft interiors**](https://www.spacex.com/vehicles/dragon/). Their focus on showing only what's essential inspired the site's simple design and generous use of empty space.
 
 * **README Structure:**  To make sure this README was professional and easy to follow, I based its structure on the official **Code Institute** template.
 
