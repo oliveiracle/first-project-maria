@@ -135,6 +135,7 @@ body {
   padding: 20px;
 }
 
+/* MARIA - QUITE LUXURY, DEEP PRESENCE TEXT*/
 .main-message h1 {
   font-family: var(--font-titles);
   font-weight: 300;
@@ -231,27 +232,62 @@ footer {
   padding: 100px 0;
   background-color: rgba(255, 255, 255, 0.85); 
   backdrop-filter: blur(5px); 
-  text-align: center;
   margin-top: 140px;
+  padding-bottom: 80px; /* Added padding to create space below the section */
+  text-align: left;
 }
 
 .philosophy-section h2 {
-  font-family: var(--font-titles); /* Same font as the main title */
+  font-family:WindSong, cursive; /* Using the WindSong font for the title */
   font-size: 3.5em;
   color: var(--primary-color);
-  margin-bottom: 25px;
   font-weight: 300;
   font-style: italic;
+  text-align: left;
 }
 
 .philosophy-section p {
   font-size: 1.2em;
   line-height: 1.8;
   color: #333;
-  max-width: 800px;
-  margin: 0 auto; 
+  max-width: 800px; 
+  text-align: left;
 }
 
+/* =========================
+  ABOUT US SECTION BELOW THE PHILOSOPHY SECTION
+========================= */
+.about-us-section {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(5px); 
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  
+}
+
+.about-us-section h2 {
+ font-family:WindSong, cursive; /* Using the WindSong font for the title */
+  font-size: 3.5em;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-style: italic;
+  text-align: right;
+}
+
+.about-us-section p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* =========================
+  FOOTER STYLES*/
 footer {
   padding: 80px 0 40px 0;
   background: transparent !important;
