@@ -125,9 +125,46 @@ The site was tested on the following browsers with no major issues found regardi
     -   ![CSS Validator Results](documentation/css-validation/css.png)
 
 -   **Accessibility**
-    -   The website achieved a perfect score of 100/100 in the Lighthouse accessibility audit, demonstrating its commitment to being usable by all users.
-    -   ![Lighthouse Accessibility Score of 100 - Contact Mobile Page](documentation/lighthouse/contact-mobile.png)
-    -   ![Lighthouse Accessibility Score of 100 - Home Mobile Page](documentation/lighthouse/home-mobile.png) 
+    ## Lighthouse Audit Results
+
+To ensure the quality, performance, and accessibility of the website, Lighthouse audits were conducted for both desktop and mobile views. The results demonstrate a commitment to best practices in web development.
+
+### Summary Scores
+
+| Category         | Desktop Score | Mobile Score |
+|------------------|---------------|--------------|
+| **Performance** | 100           | 97           |
+| **Accessibility**| 100           | 100          |
+| **Best Practices**| 81            | 82           |
+| **SEO** | 100           | 100          |
+
+### Detailed Audit Breakdown
+
+#### Performance (Desktop: 100, Mobile: 97)
+The website achieves excellent performance scores, indicating fast loading times and a smooth user experience. The minor difference on mobile (97) is typical due to simulated mobile network conditions. A key factor in achieving these high scores was the **significant optimization of the `Background.jpg` image** (reduced from 1.2MB to 115KB), drastically improving page load speed.
+
+* ![Lighthouse Performance Desktop Score](documentation/lighthouse/desktop-perfomance.png)
+* ![Lighthouse Performance Mobile Score](documentation/lighthouse/mobile-perfomance.png)
+
+#### Accessibility (Desktop: 100, Mobile: 100)
+The website achieved a perfect score of 100/100 in accessibility for both desktop and mobile. This demonstrates a strong commitment to creating an inclusive user experience, ensuring the site is usable by all, including those relying on assistive technologies. This includes a semantically structured HTML with appropriate heading levels (h1, h2, h3).
+
+* ![Lighthouse Accessibility Desktop Score](documentation/lighthouse/acessibility-desktop.png)
+* ![Lighthouse Accessibility Mobile Score](documentation/lighthouse/acessibility-mobile-results.png)
+
+#### Best Practices (Desktop: 81, Mobile: 82)
+The Best Practices scores reflect a strong adherence to modern web standards, with specific context provided for areas not at 100:
+
+* **HTTPS and Insecure Requests:** The primary factor preventing a perfect score in this category is the **site being served locally via HTTP** (e.g., `http://[::]:8000`). Lighthouse flags all local resource requests (e.g., `index.html`, `style.css`, images) as "insecure" in this context. **This is a limitation of the local development environment** and would be automatically resolved when the site is deployed to a live server with HTTPS (SSL certificate), at which point this score would significantly improve.
+* **Uses deprecated APIs (1 warning found):** This warning refers to the `<h1>` tag within a sectioning element not having its `font-size` explicitly defined in an absolute unit in all contexts. While `font-size` is intentionally set using `px` (desktop) and `rem` (mobile media query) for precise control and responsiveness, Lighthouse's strict interpretation sometimes flags relative units in specific contexts. The sizing is, however, correctly controlled in the CSS.
+
+* ![Lighthouse Best Practices Desktop Score](documentation/lighthouse/best-practices-desktop.png)
+* ![Lighthouse Best Practices Mobile Score](documentation/lighthouse/best-practices-mobile.png)
+
+#### SEO (Desktop: 100, Mobile: 100)
+The website achieved a perfect score of 100/100 in SEO (Search Engine Optimization) for both desktop and mobile. This indicates that the site follows fundamental SEO best practices for discoverability by search engines, including appropriate meta tags, valid structured data, and readable content.
+
+* ![Lighthouse SEO Desktop Score](documentation/lighthouse/seo-desktop.png) 
 
 - ### Unfixed Bugs
 
@@ -161,7 +198,7 @@ You can view the deployed site here:
 ### Acknowledgements
 * **Microsoft Paint:** Used for the initial wireframing process to map out the basic site structure.
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
-* **Google:** Utilized for conceptual brainstorming, professional phrasing, and debugging assistance throughout the project.
+* **AI Collaboration (Google Gemini):** Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, and providing structured feedback throughout the project..
 * **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
 * **Figma:** Used to design and create the final color palette graphic.
