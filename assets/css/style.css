@@ -232,11 +232,11 @@ footer {
   background-color: rgba(255, 255, 255, 0.85); 
   backdrop-filter: blur(5px); 
   text-align: center;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 .philosophy-section h2 {
-  font-family: var(--font-titles);
+  font-family: var(--font-titles); /* Same font as the main title */
   font-size: 3.5em;
   color: var(--primary-color);
   margin-bottom: 25px;
@@ -251,7 +251,6 @@ footer {
   max-width: 800px;
   margin: 0 auto; 
 }
-
 
 footer {
   padding: 80px 0 40px 0;

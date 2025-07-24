@@ -112,7 +112,9 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
     -   ![Lighthouse Accessibility Score of 100 - Home Mobile Page](documentation/lighthouse/home-mobile.png) 
 
 -   **Unfied Bugs**
--   No unfixed bugs are known at the time of submission.
+- ### Unfixed Bugs
+
+- **Minor Footer Overlap on Contact Page (Mobile):** My tutor kindly pointed out that the footer can overlap the map on the contact page on very tall mobile screens. I tried to fix this with a modern Flexbox layout, but unfortunately, it caused major issues and broke the design on the other pages. Since keeping the whole site stable and working is the top priority, I decided to undo that fix and leave this as a known, minor visual bug for now.
 
 ## Deployment
 - This site was deployed using **GitHub Pages**. Below are the steps followed:
