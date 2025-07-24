@@ -39,6 +39,7 @@ I chose a very simple color palette to bring the 'Quiet Luxury' theme to life. B
 For the fonts, I wanted to create a nice contrast. I used:
 
 - **Cormorant Garamond:** for the main titles to give the site that elegant, high-end personality.
+- **WindSong:** for section headings (h2), to add a touch of unique elegance and complement the brand's serene aesthetic.
 - **Raleway:** for paragraphs, buttons, and menus. It's a really clean and simple font, which makes all the information comfortable and easy to read on any screen.
 
 ### Wireframes
@@ -198,8 +199,9 @@ You can view the deployed site here:
 ### Acknowledgements
 * **Microsoft Paint:** Used for the initial wireframing process to map out the basic site structure.
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
-* **AI Collaboration (Google Gemini):** Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, and providing structured feedback throughout the project..
-* **GitHub Copilot:** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
+* **AI Collaboration (Google Gemini):** Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, providing structured feedback throughout the project, **and acting as a language translator, given that my native language is Portuguese.**
+* **GitHub Copilot (VS Code Extension):** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
+* **Prettier (VS Code Extension):** Utilized for automatic code formatting to ensure consistent and clean code style.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
 * **Figma:** Used to design and create the final color palette graphic.
 
