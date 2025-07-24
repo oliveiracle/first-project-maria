@@ -293,7 +293,7 @@ footer {
   padding: 100px 0;
   background-color: rgba(255, 255, 255, 0.85); 
   backdrop-filter: blur(5px); 
-  margin-top: 140px;
+  margin-bottom: 30px;
   padding-bottom: 80px; /* Added padding to create space below the section */
   text-align: left;
 }
