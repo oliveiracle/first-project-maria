@@ -35,7 +35,7 @@ For the fonts, I wanted to create a nice contrast. I used:
 Wireframes were created for both desktop and mobile to plan the layout and user flow before building the site.
 
 #### Desktop - Home Page
-![Desktop Wireframe for the Home Page](documentation/wireframes-desktop/wireframe-desktop.jpg)
+![Desktop Wireframe for the Home Page](documentation/wireframes-desktop/wireframe-desktop.png)
 
 #### Desktop - Contact Page
 ![Desktop Wireframe for the Contact Page](documentation/wireframes-desktop/wireframe-desktop-contact.jpg)
