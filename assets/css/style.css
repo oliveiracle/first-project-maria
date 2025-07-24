@@ -287,6 +287,38 @@ footer {
 }
 
 /* =========================
+  OUR LOCATIONS SECTION BELOW THE ABOUT US  SECTION
+========================= */
+.our-locations-section {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(5px); 
+  margin-top: 140px;
+  padding-bottom: 80px; /* Added padding to create space below the section */
+  text-align: left;
+}
+
+.our-locations-section h2 {
+  font-family:WindSong, cursive; /* Using the WindSong font for the title */
+  font-size: 3.5em;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.our-locations-section p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+
+/* =========================
   FOOTER STYLES*/
 footer {
   padding: 80px 0 40px 0;
