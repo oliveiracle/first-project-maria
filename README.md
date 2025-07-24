@@ -42,7 +42,6 @@ For the fonts, I wanted to create a nice contrast. I used:
 - **Raleway:** for paragraphs, buttons, and menus. It's a really clean and simple font, which makes all the information comfortable and easy to read on any screen.
 
 ### Wireframes
-
 Wireframes were created for both desktop and mobile to plan the layout and user flow before building the site.
 
 #### Desktop - Home Page
@@ -104,7 +103,14 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
 | **Contact Form Submission** | On successful submission, the user is redirected to the Formspree "Thank You" page. | Fill out the form with valid data and click "Submit". | ✅ Pass: Form submits correctly and redirects. |
 | **Contact Form Validation** | Form prevents submission if fields are empty or email is invalid. | Attempt to submit the form with empty fields; then with an invalid email format. | ✅ Pass: Browser's built-in validation works as expected. |
 | **Footer Social Links** | Each social media icon opens the respective site in a new browser tab. | Click on the Instagram, Facebook, and Pinterest icons in the footer. | ✅ Pass: All links open in a new tab. |
-| **Responsiveness** | The site layout adapts correctly to different screen sizes. | Use Chrome DevTools to view the site on various device sizes (mobile, tablet, desktop). | ✅ Pass: The layout is fully responsive and maintains integrity. |r.
+| **Responsiveness** | The site layout adapts correctly to different screen sizes. | Use Chrome DevTools to view the site on various device sizes (mobile, tablet, desktop). | ✅ Pass: The layout is fully responsive and maintains integrity. |
+
+### Browser Testing
+The site was tested on the following browsers with no major issues found regarding responsiveness, layout, or functionality:
+- Google Chrome (on macOS and Android)
+- Safari (on macOS)
+- Mozilla Firefox (on macOS)
+- Brave browser (on Android)
 
 ### Validator Testing
 
