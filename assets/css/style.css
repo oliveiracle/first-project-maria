@@ -224,9 +224,37 @@ footer {
   transform: scale(1.1);
 }
 
+/* =========================
+  OUR VISION SECTION BELOW THE FEATURES SECTION
+========================= */
+.our-vision-section {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(5px); 
+  margin-top: 140px;
+  padding-bottom: 80px; /* Added padding to create space below the section */
+  text-align: left;
+}
+
+.our-vision-section h2 {
+  font-family:WindSong, cursive; /* Using the WindSong font for the title */
+  font-size: 3.5em;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.our-vision-section p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px; 
+  text-align: left;
+}
 
 /* =========================
-  PHILOSOPHY SECTION BELOW THE FEATURES SECTION
+    NEW PAGE PHILOSOPHY 
 ========================= */
 .philosophy-section {
   padding: 100px 0;
