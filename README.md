@@ -78,7 +78,7 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
     -  The navigation bar is designed for an intuitive Browse experience. It stays fixed at the top for easy access and seamlessly transforms into a clean hamburger menu on mobile. This ensures users can find what they need—from treatment pages to the “Book Your Program” button—from anywhere on the site, on any device.
 
 -   **The Hero Section** 
-   ![Screenshot of the homepage](documentation/screenshots/home.png)
+   ![Screenshot of the homepage](documentation/screenshots/herosection.png)
     -   The first thing visitors see is a stunning, full-screen hero image paired with the brand's motto: "Quiet Luxury. Deep Presence." This serves as an immediate immersion into the spa's serene and high-end atmosphere, designed to capture attention and set a calm tone for the entire visit.
 
 -   **Programs Page** 
