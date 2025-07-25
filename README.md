@@ -85,9 +85,9 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
    ![Screenshot of the programs page](documentation/screenshots/programs-page.png)
     -   Visitors can explore the spa's offerings on a visually-driven Programs page. Each treatment is presented in a clean "card" with a beautiful image and clear description, making it enjoyable for potential clients to browse and find a service that resonates with them. The grid layout is fully responsive.
 
-- **Philosophy Page**
-   ![Screenshot of the philosophy page](documentation/screenshots/philosophy-screenshot.png)
-    -   Dedicated to the brand's core values, the Philosophy Page offers a deeper insight into MARIA's ethos. It features comprehensive explanations of "Our Philosophy" and "Our Vision," providing visitors with a complete understanding of the spa's guiding principles and commitment to holistic well-being.
+   - **Philosophy Page**
+   ![Screenshot of the philosophy page](documentation/screenshots/philosophypage.png) 
+    -   Dedicated to the brand's core values, the Philosophy Page offers a deeper insight into MARIA's ethos. It features a comprehensive explanation of **"Our Philosophy,"** providing visitors with a complete understanding of the spa's guiding principles and commitment to holistic well-being.
 
 -   **The Footer**  
    ![Screenshot of the footer ](documentation/footer.png)
