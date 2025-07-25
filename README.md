@@ -82,7 +82,7 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
     -   The first thing visitors see is a stunning, full-screen hero image paired with the brand's motto: "Quiet Luxury. Deep Presence." This serves as an immediate immersion into the spa's serene and high-end atmosphere, designed to capture attention and set a calm tone for the entire visit.
 
 -   **Programs Page** 
-   ![Screenshot of the programs page](documentation/screenshots/programs.png)
+   ![Screenshot of the programs page](documentation/screenshots/programs-page.png)
     -   Visitors can explore the spa's offerings on a visually-driven Programs page. Each treatment is presented in a clean "card" with a beautiful image and clear description, making it enjoyable for potential clients to browse and find a service that resonates with them. The grid layout is fully responsive.
 
 - **Philosophy Page**
