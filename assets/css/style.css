@@ -339,10 +339,8 @@ footer {
 
 /* Contact Page */
 .contact-page-wrapper {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 20px;
 }
 
@@ -365,8 +363,6 @@ footer {
   margin: 0 auto;
   padding: 20px 10px;
   border-radius: 10px;
-  transform: translateY(-80px);
-  max-height: 90vh;
 }
 
 .contact-section h2,
