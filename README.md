@@ -126,6 +126,7 @@ The site was tested on the following browsers with no major issues found regardi
      -  ![Index HTML Validator Results](documentation/html-validation/index.png)
      -  ![Contact HTML Validator Results](documentation/html-validation/contact.png)
      -  ![Programs HTML Validator Results](documentation/html-validation/programs.png)
+     -  ![Philosophy HTML Validator Results](documentation/html-validation/philosophy-page-validator.png)
     
 -   **CSS**
     -   No errors were found when passing the `style.css` file through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
