@@ -92,11 +92,11 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 -   **The Footer**  
    ![Screenshot of the footer ](documentation/footer.png)
     -   A clean footer is present on every page, providing easy access to the spa's address and social media profiles. This allows users to connect with the brand on other platforms or find key information at any point in their journey without interrupting their experience.
+### Future Improvements
 
-### Features Left to Implement
-
--   **Clickable Brand Pillars**
-    -   In a future version, the four icons on the homepage could be interactive, revealing more content about each brand value when clicked or hovered.
+-   **Clickable Brand Pillars:** In a future version, the four icons on the homepage could be interactive, revealing more content about each brand value when clicked or hovered.
+-   **Enhanced Responsiveness for Extreme Viewports:** Further refine layout for very specific or unusual screen sizes not covered by standard media queries.
+-   **Integration with a Real Booking System:** Implement a full backend for program bookings.
 
 ## Testing
 
@@ -105,7 +105,7 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
 
 | Feature | Expected Outcome | Action | Result |
 |---|---|---|---|
-| **Navigation Links** | Each link navigates to the correct page. | Click on "HOME", "PROGRAMS", and "CONTACT" links on all pages. | ✅ Pass: All links navigate correctly. |
+| **Navigation Links** | Each link navigates to the correct page. | Click on "HOME", "PROGRAMS", "CONTACT" and "PHILOSOPHY" links on all pages. | ✅ Pass: All links navigate correctly. |
 | **"Book Your Program" Button** | Button navigates to the Contact page. | Click on the CTA button from the Home and Programs pages. | ✅ Pass: Button correctly links to `contact.html`. |
 | **Contact Form Submission** | On successful submission, the user is redirected to the Formspree "Thank You" page. | Fill out the form with valid data and click "Submit". | ✅ Pass: Form submits correctly and redirects. |
 | **Contact Form Validation** | Form prevents submission if fields are empty or email is invalid. | Attempt to submit the form with empty fields; then with an invalid email format. | ✅ Pass: Browser's built-in validation works as expected. |
@@ -122,7 +122,7 @@ The site was tested on the following browsers with no major issues found regardi
 ### Validator Testing
 
 -   **HTML**
-    -   No errors were returned when passing the code for all three pages through the official [W3C validator](https://validator.w3.org/).
+    -   No errors were returned when passing the code for all four pages through the official [W3C validator](https://validator.w3.org/).
      -  ![Index HTML Validator Results](documentation/html-validation/index.png)
      -  ![Contact HTML Validator Results](documentation/html-validation/contact.png)
      -  ![Programs HTML Validator Results](documentation/html-validation/programs.png)
@@ -173,10 +173,6 @@ The Best Practices scores reflect a strong adherence to modern web standards, wi
 The website achieved a perfect score of 100/100 in SEO (Search Engine Optimization) for both desktop and mobile. This indicates that the site follows fundamental SEO best practices for discoverability by search engines, including appropriate meta tags, valid structured data, and readable content.
 
 * ![Lighthouse SEO Desktop Score](documentation/lighthouse/seo-desktop.png) 
-
-- ### Unfixed Bugs
-
-- **Minor Footer Overlap on Contact Page (Mobile):** My tutor kindly pointed out that the footer can overlap the map on the contact page on very tall mobile screens. I tried to fix this with a modern Flexbox layout, but unfortunately, it caused major issues and broke the design on the other pages. Since keeping the whole site stable and working is the top priority, I decided to undo that fix and leave this as a known, minor visual bug for now.
 
 ## Deployment
 - This site was deployed using **GitHub Pages**. Below are the steps followed:
