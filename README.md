@@ -54,6 +54,9 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 #### Desktop - Programs Page
 ![Desktop Wireframe for the Programs Page](documentation/wireframes-desktop/wireframe-desktop-programs.jpg)
 
+#### Desktop - Philosophy Page
+![Desktop Wireframe for the Philosophy Page](documentation/wireframes-desktop/wireframe-philosophy.png)
+
 #### Mobile - Home Page
 ![Mobile Wireframe for the Home Page](documentation/wireframes-mobile/wireframe-mobile-home.jpg)
 
