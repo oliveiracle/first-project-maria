@@ -207,7 +207,7 @@ body {
 /* Section Styles */
 .our-vision-section,
 .philosophy-section,
-.about-us-section,
+.our-story-section,
 .our-locations-section {
   padding: 100px 0 80px;
   background: rgba(255,255,255,0.85);
@@ -218,7 +218,7 @@ body {
 }
 
 /* Sections on the index.html page */
-.about-us-section {
+.our-story-section {
   text-align: center;
   margin-top: 25px;  /*This is the white space between the sections*/
 }
@@ -229,7 +229,7 @@ body {
 }
 
 .our-vision-section h2,
-.about-us-section h2,
+.our-story-section h2,
 .our-locations-section h2 {
   font-family: WindSong, cursive;
   font-size: 3.5em;
@@ -239,7 +239,7 @@ body {
 }
 
 .our-vision-section p,
-.about-us-section p,
+.our-story-section p,
 .our-locations-section p {
   font-size: 1.2em;
   line-height: 1.8;
@@ -248,8 +248,8 @@ body {
 }
 
 
-.about-us-section h2,
-.about-us-section p {
+.our-story-section h2,
+.our-story-section p {
   text-align: right;
   margin-left: auto;
 }
@@ -693,14 +693,14 @@ body.inner-page-background {
 
   .philosophy-section h2,
   .our-locations-section h2,
-  .about-us-section h2,
+  .our-story-section h2,
   .our-vision-section h2 { 
     font-size: 2.5rem; 
   }
   .philosophy-section p,
   .our-locations-section p,
   .our-vision-section p,
-  .about-us-section p { 
+  .our-story-section p { 
     font-size: 1.1rem; 
   }
 }
