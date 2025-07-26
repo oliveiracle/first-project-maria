@@ -79,7 +79,7 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 
 -   **The Hero Section** 
    ![Screenshot of the homepage](documentation/screenshots/herosection.png)
-    -   The first thing visitors see is a stunning, full-screen hero image paired with the brand's motto: "Quiet Luxury. Deep Presence." This serves as an immediate immersion into the spa's serene and high-end atmosphere, designed to capture attention and set a calm tone for the entire visit.
+    -    -   The first thing visitors see is a full-screen hero section designed for immediate immersion. On desktop, this is achieved with a subtle, looping background video, while on mobile, a high-quality static image is used to ensure fast performance and a clean user experience. This visual introduction is paired with the brand's motto: "Quiet Luxury. Deep Presence.
 
 -   **Programs Page** 
    ![Screenshot of the programs page](documentation/screenshots/programs-page.png)
@@ -111,6 +111,7 @@ A comprehensive testing plan was followed to ensure the site is functional, visu
 | **Contact Form Validation** | Form prevents submission if fields are empty or email is invalid. | Attempt to submit the form with empty fields; then with an invalid email format. | ✅ Pass: Browser's built-in validation works as expected. |
 | **Footer Social Links** | Each social media icon opens the respective site in a new browser tab. | Click on the Instagram, Facebook, and Pinterest icons in the footer. | ✅ Pass: All links open in a new tab. |
 | **Responsiveness** | The site layout adapts correctly to different screen sizes. | Use Chrome DevTools to view the site on various device sizes (mobile, tablet, desktop). | ✅ Pass: The layout is fully responsive and maintains integrity. |
+| **Background Video** | Video plays on desktop screens; static image shows on mobile screens. | Resize browser window from large to small. Test on a real mobile device. | ✅ Pass: Video is correctly displayed on desktop only, with the static image fallback on mobile. |
 
 ### Browser Testing
 The site was tested on the following browsers with no major issues found regarding responsiveness, layout, or functionality:
@@ -198,13 +199,14 @@ You can view the deployed site here:
 ### Media
 * All photographic images used on the website were sourced from [Pexels](https://www.pexels.com/).
 * The icons used in the footer are from [Font Awesome](https://fontawesome.com/).
+ 
 
 ### Acknowledgements
-* **Microsoft Paint:** Used for the initial wireframing process to map out the basic site structure.
+* **Design Tools:** Used **Microsoft Paint** for the initial wireframing and **Figma** to design the final color palette graphic.
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
-* **AI Collaboration (Google Gemini):** Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, providing structured feedback throughout the project, **and acting as a language translator, given that my native language is Portuguese.**
+*  **Google AI (Gemini & Veo):**  Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, providing structured feedback throughout the project, VEO IA to generate the looping background video for the homepage **and acting as a language translator, given that my native language is Portuguese.**
 * **GitHub Copilot (VS Code Extension):** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
 * **Prettier (VS Code Extension):** Utilized for automatic code formatting to ensure consistent and clean code style.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
-* **Figma:** Used to design and create the final color palette graphic.
+
 
