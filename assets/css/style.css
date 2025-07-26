@@ -34,17 +34,18 @@ body {
 /* =========================
   BACKGROUND VIDEO
 ========================= */
-
 .background-video {
-  position: fixed; 
+  position: fixed;
+  right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -1; 
-  object-fit: cover; 
+  z-index: -1;
+  object-fit: cover;
 }
+
 
 /* Header */
 .site-header {
@@ -558,8 +559,6 @@ body.inner-page-background {
 /*----------------------------------------
 -----------------------------------------
 ---------------------------------------*/
-
-
 /* Responsive Media Queries for bigger screens */
 /* I needed extra help with this part */
 @media (max-width: 992px) {
@@ -673,6 +672,16 @@ body.inner-page-background {
 ---------------------------------------*/
   /* Media queres for smaller screens */
 @media (max-width: 768px) {
+  /*Block the video on smaller screens*/
+.background-video {
+    display: none !important;
+  }
+
+  body {
+    background: url('../images/BG.jpg') center center/cover no-repeat;
+    background-attachment: scroll; /
+  }
+
   footer {
     padding: 20px 10px 0;
   }
