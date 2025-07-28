@@ -556,6 +556,24 @@ body.inner-page-background {
   display: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Style for keyboard navigation focus */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #6f746a;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
 /*----------------------------------------
 -----------------------------------------
 ---------------------------------------*/
@@ -620,7 +638,8 @@ body.inner-page-background {
    transition: all 0.3s;
   }
 
-  /* I NEEDED HELP WITH THIS PART */
+  
+  /* Google Gemini helped me with this part*/
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
    transform: rotate(-45deg) translate(-5px, 6px);
   }
@@ -679,7 +698,7 @@ body.inner-page-background {
 
   body {
     background: url('../images/BG.jpg') center center/cover no-repeat;
-    background-attachment: scroll; /
+    background-attachment: scroll; 
   }
 
   footer {
