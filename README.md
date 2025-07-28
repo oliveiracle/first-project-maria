@@ -1,6 +1,6 @@
 # MARIA | Wellness & Spa
 
-MARIA | Wellness & Spa is a responsive front-end website created as part of the Code Institute Full-Stack Developer course. It represents a fictional high-end spa that values serenity, elegance, and deep human presence. The site aims to give users a peaceful digital experience, aligned with the brand’s motto: **“Quiet Luxury. Deep Presence.”**
+MARIA | Wellness & Spa is a responsive front-end website for a fictional high-end spa that values serenity, elegance, and deep human presence. The site aims to give users a peaceful digital experience, aligned with the brand’s motto: “Quiet Luxury. Deep Presence.”
 
 Its main purpose is to introduce the spa’s concept, showcase its curated treatments, and make it easy for visitors to learn more or get in touch — all through a minimalist, mobile-friendly design.
 
@@ -98,9 +98,9 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
 -   **Clickable Brand Pillars:** In a future version, the four icons on the homepage could be interactive, revealing more content about each brand value when clicked or hovered.
 -   **Enhanced Responsiveness for Extreme Viewports:** Further refine layout for very specific or unusual screen sizes not covered by standard media queries.
 -   **Integration with a Real Booking System:** Implement a full backend for program bookings.
-### Future Improvements
 
 - **User-Selectable Menu Position:** Based on mentor feedback regarding one-handed mobile use for the right-handed majority, a future version could include a toggle in the settings to allow users to switch the hamburger menu position from the left to the right side of the screen. This would improve ergonomics while maintaining an option for left-handed users. Implementing this  would require JavaScript and `localStorage` to save the user's preference.
+
 
 ## Testing
 
