@@ -188,6 +188,7 @@ To provide the most rigorous and realistic benchmark, the website was also audit
 | **Homepage** | Mobile  |     76      |      100      |      100       | 100  |
 | **Homepage** | Desktop |     98      |      100      |      100       | 100  |
 | **Programs Page** | Mobile  |     71      |      95       |      100       | 100  |
+| **Programs Page** | Desktop |     97      |      95       |      100       | 100  |
 
 *For detailed proof, the full report screenshots can be viewed here: [Homepage Mobile](documentation/pagespeed/pagespeed1.png), [Homepage Desktop](documentation/pagespeed/pagespeed2.png), [Programs Mobile](documentation/pagespeed/pagespeed3.png), [Programs Desktop](documentation/pagespeed/pagespeed4.png).*
 
