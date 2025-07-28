@@ -225,5 +225,6 @@ You can view the deployed site here:
 * **GitHub Copilot (VS Code Extension):** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
 * **Prettier (VS Code Extension):** Utilized for automatic code formatting to ensure consistent and clean code style.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
+- **Accessibility Auditing:** The project was audited using `accessScan`, which led to key accessibility improvements such as adding screen-reader-only text to warn users about links that open in new tabs, and implementing a visible focus state for keyboard navigators.
 
 

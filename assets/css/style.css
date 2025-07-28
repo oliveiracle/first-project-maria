@@ -3,7 +3,7 @@
   Organized, cleaned, and typo-free version
 */
 
-/* Root Variables */
+/* Root Variables: Define color and font variables for easy reuse */
 :root {
   --highlighted-color: #fff;
   --primary-color: #1a1a1a;
@@ -11,7 +11,7 @@
   --font-titles: "Cormorant Garamond", serif;
 }
 
-/* Reset & Base Styles */
+/* Reset & Base Styles: Remove default margin/padding and set box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +24,7 @@ html, body {
   overflow-y: auto;
 }
 
+/* Body: Set font, background image, and minimum height */
 body {
   font-family: var(--font-primary);
   background: url("../images/BG.jpg") center center/cover no-repeat scroll;
@@ -34,6 +35,7 @@ body {
 /* =========================
   BACKGROUND VIDEO
 ========================= */
+/* Fullscreen fixed background video */
 .background-video {
   position: fixed;
   right: 0;
@@ -46,8 +48,7 @@ body {
   object-fit: cover;
 }
 
-
-/* Header */
+/* Header: Flexbox layout for logo and navigation */
 .site-header {
   background: transparent;
   padding: 10px 40px;
@@ -59,6 +60,7 @@ body {
   position: relative;
 }
 
+/* Main navigation bar */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -67,7 +69,7 @@ body {
   position: relative;
 }
 
-/* Navigation */
+/* Navigation links: horizontal flex layout */
 .nav-links {
   display: flex;
   list-style: none;
@@ -75,6 +77,7 @@ body {
   flex-grow: 1;
 }
 
+/* Navigation links list: spacing and layout */
 .nav-links ul {
   display: flex;
   flex-direction: row;
@@ -83,6 +86,7 @@ body {
   padding: 10px 20px;
 }
 
+/* Navigation links and CTA button: style and hover effect */
 .nav-links ul li a,
 .button-cta {
   text-transform: uppercase;
@@ -101,6 +105,7 @@ body {
   color: #fff;
 }
 
+/* CTA button: border and hover shadow */
 .button-cta {
   display: inline-block;
   padding: 10px 30px;
@@ -115,7 +120,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Menu Toggle (Mobile) */
+/* Menu Toggle (Mobile): Hamburger menu styles */
 .menu-toggle {
   display: none;
   border: none;
@@ -128,7 +133,7 @@ body {
   display: none;
 }
 
-/* Hero Section */
+/* Hero Section: Centered content with large height */
 .hero-section {
   padding: 5vh 60px 0;
   text-align: center;
@@ -139,12 +144,14 @@ body {
   flex-direction: row;
 }
 
+/* Main message box in hero section */
 .main-message {
   border-radius: 10px;
   text-align: center;
   padding: 20px;
 }
 
+/* Hero title: large, italic, shadowed */
 .main-message h1 {
   font-family: var(--font-titles);
   font-weight: 300;
@@ -156,6 +163,7 @@ body {
   line-height: 1.2;
 }
 
+/* Hero subtitle: italic, shadowed, max width */
 .main-message p {
   font-family: var(--font-titles);
   font-size: 38px;
@@ -168,6 +176,7 @@ body {
   transform: translateY(10px);
 }
 
+/* Hidden element for main message */
 .main-message .hidden {
   display: none;
   font-size: 18px;
@@ -175,12 +184,13 @@ body {
   color: var(--primary-color);
 }
 
-/* Features Section */
+/* Features Section: Grid of spa benefits */
 .features-section {
   padding: 60px 0;
   margin-top: -100vh;
 }
 
+/* Spa benefits: 4-column grid */
 .spa-benefits {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -189,6 +199,7 @@ body {
   align-items: center;
 }
 
+/* Feature item: vertical flex, animated */
 .feature-item {
   display: flex;
   flex-direction: column;
@@ -197,6 +208,7 @@ body {
   transform: translateY(60px);
 }
 
+/* Feature icon: large, colored, animated */
 .feature-item i {
   font-size: 3rem;
   color: var(--primary-color);
@@ -205,6 +217,7 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* Feature text: style and hover effect */
 .feature-item p {
   font-size: 16px;
   font-weight: 300;
@@ -220,7 +233,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Section Styles */
+/* Section Styles: Shared section backgrounds and spacing */
 .our-vision-section,
 .philosophy-section,
 .our-story-section,
@@ -233,17 +246,18 @@ body {
   margin-bottom: 25px;
 }
 
-/* Sections on the index.html page */
+/* Index page sections: center and spacing */
 .our-story-section {
   text-align: center;
-  margin-top: 25px;  /*This is the white space between the sections*/
+  margin-top: 25px;
 }
 
 .our-locations-section {
   text-align: center;
-  margin-top: 25px; /*This is the white space between the sections*/
+  margin-top: 25px;
 }
 
+/* Section titles: custom font, size, color */
 .our-vision-section h2,
 .our-story-section h2,
 .our-locations-section h2 {
@@ -254,6 +268,7 @@ body {
   font-style: italic;
 }
 
+/* Section paragraphs: size, color, max width */
 .our-vision-section p,
 .our-story-section p,
 .our-locations-section p {
@@ -263,21 +278,21 @@ body {
   max-width: 800px;
 }
 
-
+/* Our story: right-aligned text */
 .our-story-section h2,
 .our-story-section p {
   text-align: right;
   margin-left: auto;
 }
 
+/* Our locations: left-aligned text */
 .our-locations-section h2,
 .our-locations-section p {
   text-align: left;
   margin-right: auto;
 }
 
-
-/* Section on philosophy.html page */
+/* Philosophy page section: title and paragraph styling */
 .philosophy-section h1 {
   font-family: windSong, cursive;
   font-size: 3.8em;
@@ -295,7 +310,7 @@ body {
   margin-top: 20px;
 }
 
-/* Footer */
+/* Footer: padding, color, and grid layout */
 footer {
   padding: 80px 0 40px;
   background: transparent;
@@ -303,6 +318,7 @@ footer {
   position: relative;
 }
 
+/* Footer grid: 3 columns */
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -310,6 +326,7 @@ footer {
   text-align: center;
 }
 
+/* Footer social icons: flex layout */
 .footer-social ul {
   display: flex;
   justify-content: center;
@@ -317,6 +334,7 @@ footer {
   list-style: none;
 }
 
+/* Footer social links: color and hover */
 .footer-social a {
   color: var(--primary-color);
   font-size: 20px;
@@ -329,6 +347,7 @@ footer {
   color: var(--highlighted-color);
 }
 
+/* Footer address links: underline on hover */
 .footer-adress a {
   color: var(--primary-color);
   text-decoration: none;
@@ -338,14 +357,14 @@ footer {
   text-decoration: underline;
 }
 
-/* Container */
+/* Container: max width and centering */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Section Style */
+/* Section Style: full viewport height and centering */
 .section-style {
   height: 100vh;
   display: flex;
@@ -353,7 +372,7 @@ footer {
   overflow: hidden;
 }
 
-/* Contact Page */
+/* Contact Page: wrapper and container styles */
 .contact-page-wrapper {
   display: flex;
   flex-direction: column;
@@ -366,6 +385,7 @@ footer {
   padding: 20px;
 }
 
+/* Contact form: vertical layout and spacing */
 .contact-form {
   margin-bottom: 30px;
   display: flex;
@@ -374,6 +394,7 @@ footer {
   align-items: center;
 }
 
+/* Contact section: box styling */
 .contact-section {
   max-width: 500px;
   margin: 0 auto;
@@ -381,17 +402,19 @@ footer {
   border-radius: 10px;
 }
 
+/* Contact section titles and paragraphs: center and spacing */
 .contact-section h2,
 .contact-section p {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* Main content: top margin for header */
 main {
   margin-top: 120px;
 }
 
-/* Form */
+/* Form: group layout and input styling */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -415,6 +438,7 @@ main {
   height: 100px;
 }
 
+/* Form button: style and animation */
 .form-button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -428,7 +452,7 @@ main {
   transform: translateY(20px);
 }
 
-/* Map */
+/* Map container: spacing and iframe sizing */
 .map-container {
   margin-top: 60px;
 }
@@ -439,11 +463,12 @@ main {
   display: block;
 }
 
-/* Inner Page Background */
+/* Inner Page Background: solid color */
 body.inner-page-background {
   background: #f8f8f8;
 }
 
+/* Main content wrapper: box styling and shadow */
 .main-content-wrapper {
   background: #fff;
   max-width: 1200px;
@@ -456,11 +481,13 @@ body.inner-page-background {
   z-index: 1;
 }
 
+/* Programs intro section: center and spacing */
 .programs-intro-section {
   text-align: center;
   margin-bottom: 50px;
 }
 
+/* Page title: large, custom font */
 .page-title {
   font-family: var(--font-titles);
   font-size: 4.5em;
@@ -468,6 +495,7 @@ body.inner-page-background {
   margin-bottom: 15px;
 }
 
+/* Page description: font and spacing */
 .page-description {
   font-family: var(--font-primary);
   font-size: 1.2em;
@@ -477,10 +505,12 @@ body.inner-page-background {
   margin: 0 auto;
 }
 
+/* Programs grid section: spacing */
 .programs-grid-section {
   padding-top: 30px;
 }
 
+/* Programs grid: responsive columns */
 .programs-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -488,6 +518,7 @@ body.inner-page-background {
   padding: 0 20px;
 }
 
+/* Program card: box styling and hover effect */
 .program-card {
   background: #fff;
   border-radius: 8px;
@@ -503,6 +534,7 @@ body.inner-page-background {
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
 
+/* Program image: cover and sizing */
 .program-image {
   width: 100%;
   height: 220px;
@@ -510,6 +542,7 @@ body.inner-page-background {
   display: block;
 }
 
+/* Program info: padding and layout */
 .program-info {
   padding: 25px;
   flex-grow: 1;
@@ -518,6 +551,7 @@ body.inner-page-background {
   justify-content: space-between;
 }
 
+/* Program title: font and spacing */
 .program-title {
   font-family: var(--font-titles);
   font-size: 1.8em;
@@ -526,6 +560,7 @@ body.inner-page-background {
   line-height: 1.2;
 }
 
+/* Program description: font and spacing */
 .program-description {
   font-family: var(--font-primary);
   font-size: 0.95em;
@@ -534,6 +569,7 @@ body.inner-page-background {
   margin-bottom: 20px;
 }
 
+/* Read more button: style and hover */
 .read-more-btn {
   display: inline-block;
   background: var(--primary-color);
@@ -551,7 +587,7 @@ body.inner-page-background {
   background: #333;
 }
 
-/* Utility */
+/* Utility classes: visually hidden and screen reader only */
 .visually-hidden {
   display: none;
 }
@@ -574,36 +610,43 @@ a:focus-visible, button:focus-visible {
   outline-offset: 2px;
   border-radius: 2px;
 }
+
 /*----------------------------------------
 -----------------------------------------
 ---------------------------------------*/
 /* Responsive Media Queries for bigger screens */
 /* I needed extra help with this part */
 @media (max-width: 992px) {
+  /* Stack grid columns for spa benefits and programs */
   .spa-benefits,
   .programs-grid-container {
    grid-template-columns: 1fr;
    gap: 30px;
   }
 
+  /* Set background for index and inner pages */
   body.index-background,
   body.inner-page-background {
    background: url("../images/BG.jpg") center center/cover no-repeat scroll;
   }
 
+  /* Footer: reduce padding */
   footer {
    padding: 40px 20px 0;
   }
 
+  /* Footer grid: single column */
   .footer-grid {
    grid-template-columns: 1fr;
    gap: 15px;
   }
 
+  /* Header: reduce padding */
   .site-header {
    padding: 15px 20px;
   }
 
+  /* Hamburger menu checkbox: visible and positioned */
   #menu-toggle-checkbox {
    display: block;
    position: absolute;
@@ -616,6 +659,7 @@ a:focus-visible, button:focus-visible {
    cursor: pointer;
   }
 
+  /* Hamburger menu icon: visible and styled */
   .menu-toggle {
    display: flex;
    flex-direction: column;
@@ -638,8 +682,7 @@ a:focus-visible, button:focus-visible {
    transition: all 0.3s;
   }
 
-  
-  /* Google Gemini helped me with this part*/
+  /* Hamburger menu animation (Google Gemini helped) */
   #menu-toggle-checkbox:checked + .menu-toggle .bar:nth-child(1) {
    transform: rotate(-45deg) translate(-5px, 6px);
   }
@@ -650,11 +693,13 @@ a:focus-visible, button:focus-visible {
    transform: rotate(45deg) translate(-5px, -6px);
   }
 
+  /* Hide logo and CTA button on mobile */
   .site-header .logo,
   .site-header .button-cta {
    display: none;
   }
 
+  /* Mobile nav: full screen overlay */
   .nav-links {
    position: fixed;
    top: 0;
@@ -669,10 +714,12 @@ a:focus-visible, button:focus-visible {
    z-index: 999;
   }
 
+  /* Show nav when menu toggled */
   #menu-toggle-checkbox:checked ~ .nav-links {
    left: 0;
   }
 
+  /* Nav links: vertical layout */
   .nav-links ul {
    flex-direction: column;
    gap: 20px;
@@ -684,42 +731,46 @@ a:focus-visible, button:focus-visible {
   }
 }
 
-
-
 /*----------------------------------------
 -----------------------------------------
 ---------------------------------------*/
-  /* Media queres for smaller screens */
+/* Media queries for smaller screens */
 @media (max-width: 768px) {
-  /*Block the video on smaller screens*/
-.background-video {
+  /* Hide background video on small screens */
+  .background-video {
     display: none !important;
   }
 
+  /* Body: set background image and attachment */
   body {
     background: url('../images/BG.jpg') center center/cover no-repeat;
     background-attachment: scroll; 
   }
 
+  /* Footer: reduce padding */
   footer {
     padding: 20px 10px 0;
   }
 
+  /* Main content: reduce margin and padding */
   .main-content-wrapper {
     margin: 20px 15px;
     padding: 25px;
   }
 
+  /* Page title: smaller font */
   .page-title {
     font-size: 2.5rem; 
   }
 
+  /* Grid containers: single column, smaller gap */
   .programs-grid-container,
   .spa-benefits {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
+  /* Hero section: smaller title and subtitle */
   .hero-section h1 {
     font-size: 3rem; 
   }
@@ -728,18 +779,21 @@ a:focus-visible, button:focus-visible {
     font-size: 1.5rem; 
   }
 
+  /* Hero and features: reduced horizontal padding */
   .hero-section,
   .features-section {
     padding-left: 15px;
     padding-right: 15px;
   }
 
+  /* Section titles: smaller font */
   .philosophy-section h2,
   .our-locations-section h2,
   .our-story-section h2,
   .our-vision-section h2 { 
     font-size: 2.5rem; 
   }
+  /* Section paragraphs: smaller font */
   .philosophy-section p,
   .our-locations-section p,
   .our-vision-section p,
