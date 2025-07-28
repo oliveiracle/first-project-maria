@@ -262,7 +262,7 @@ body {
 .our-story-section h2,
 .our-locations-section h2 {
   font-family: WindSong, cursive;
-  font-size: 3.5em;
+  font-size: 3.7em;
   color: var(--primary-color);
   font-weight: 200;
   font-style: italic;
@@ -272,10 +272,11 @@ body {
 .our-vision-section p,
 .our-story-section p,
 .our-locations-section p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.8;
   color: #333;
   max-width: 800px;
+  font-style: italic;
 }
 
 /* Our story: right-aligned text */
@@ -295,7 +296,7 @@ body {
 /* Philosophy page section: title and paragraph styling */
 .philosophy-section h1 {
   font-family: windSong, cursive;
-  font-size: 3.8em;
+  font-size: 3.9em;
   color: var(--primary-color);
   font-weight: 200;
   font-style: italic;
@@ -303,11 +304,12 @@ body {
 }
 
 .philosophy-section p {
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.8;
   color: #333;
   max-width: 800px;
   margin-top: 20px;
+  font-style: italic;
 }
 
 /* Footer: padding, color, and grid layout */
