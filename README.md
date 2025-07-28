@@ -137,7 +137,7 @@ The site was tested on the following browsers with no major issues found regardi
     -   No errors were found when passing the `style.css` file through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
     -   ![CSS Validator Results](documentation/css-validation/css.png)
 
--   **Accessibility**
+
     ## Lighthouse Audit Results
 
 To ensure the quality, performance, and accessibility of the website, Lighthouse audits were conducted for both desktop and mobile views. The results demonstrate a commitment to best practices in web development.
@@ -178,6 +178,18 @@ The Best Practices scores reflect a strong adherence to modern web standards, wi
 The website achieved a perfect score of 100/100 in SEO (Search Engine Optimization) for both desktop and mobile. This indicates that the site follows fundamental SEO best practices for discoverability by search engines, including appropriate meta tags, valid structured data, and readable content.
 
 * ![Lighthouse SEO Desktop Score](documentation/lighthouse/seo-desktop.png) 
+
+     ## Google PageSpeed Audit Results
+
+To provide the most rigorous and realistic benchmark, the website was also audited using the official Google PageSpeed Insights tool. The scores below reflect a real-world user experience, simulating a mid-range mobile device on a 4G network, which is why they may differ slightly from the local Lighthouse "lab" tests presented above. The results confirm a high-quality, fast, and accessible user experience across the site's key pages.
+
+| Page                 | View    | Performance | Accessibility | Best Practices | SEO |
+| :------------------- | :------ | :---------: | :-----------: | :------------: | :--: |
+| **Homepage** | Mobile  |     76      |      100      |      100       | 100  |
+| **Homepage** | Desktop |     98      |      100      |      100       | 100  |
+| **Programs Page** | Mobile  |     71      |      95       |      100       | 100  |
+
+*For detailed proof, the full report screenshots can be viewed here: [Homepage Mobile](documentation/pagespeed/pagespeed1.png), [Homepage Desktop](documentation/pagespeed/pagespeed2.png), [Programs Mobile](documentation/pagespeed/pagespeed3.png), [Programs Desktop](documentation/pagespeed/pagespeed4.png).*
 
 ## Deployment
 - This site was deployed using **GitHub Pages**. Below are the steps followed:
