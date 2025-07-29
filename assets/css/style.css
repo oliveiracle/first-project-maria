@@ -633,7 +633,7 @@ a:focus-visible, button:focus-visible {
 
   /* Set background for index and inner pages */
  body.index-background {
-    background: url("../images/BG.jpg") center center / cover no-repeat scroll;
+    background: url("../images/bg1080.jpg") center center / cover no-repeat fixed, #f5f5f5
 }
   /* Footer: reduce padding */
   footer {
@@ -743,9 +743,9 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 768px) {
 
   body {
-    background: url("../images/BG.jpg") center center/cover no-repeat fixed, #f5f5f5;
-    min-height: 100%;
+    background: url("../images/bg1080.jpg") center center/cover no-repeat fixed, #f5f5f5;
   }
+
 
   /* Hide background video on small screens */
   .background-video {
