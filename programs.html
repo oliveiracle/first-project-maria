@@ -1,5 +1,5 @@
-<!-- I USED COPILOT AND PRETTIER TOOLS ON VS CODE IN ORDER TO ORGANIZE MY CODE -->
-<!-- All the 3 pages share the same header and footer structure -->
+<!-- Organized with Copilot and Prettier in VS Code -->
+<!-- All 3 pages share the same header and footer structure -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,29 +7,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Discover our natural and holistic programs at MARIA Wellness & Spa." />
-
+    <meta name="keywords" content="spa, wellness, luxury, holistic treatments, MARIA">
     <!-- Page title and favicon -->
     <title>MARIA | Wellness & Spa - Programs</title>
     <link rel="icon" type="image/png" href="assets/images/android-chrome-192x192.png" />
 
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <!-- Main CSS -->
+    <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts for typography -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    
+    <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap" rel="stylesheet" />
   </head>
   <body class="index-background">
     <!-- Site Header with Navigation -->
     <header class="site-header">
-      <!-- Hamburger menu for mobile navigation -->
+      <!-- Hamburger menu for mobile navigation (checkbox hack) -->
       <input type="checkbox" id="menu-toggle-checkbox" hidden />
       <label for="menu-toggle-checkbox" class="menu-toggle" aria-label="Open navigation menu">
         <span class="bar"></span>
@@ -45,15 +41,18 @@
           <li><a href="philosophy.html">PHILOSOPHY</a></li>
         </ul>
       </nav>
-      <!-- Call-to-action button -->
+      <!-- Call-to-action button for booking -->
       <a href="contact.html" class="button-cta">BOOK YOUR PROGRAM</a>
     </header>
 
+    <!-- Main content wrapper -->
     <main class="main-content-wrapper">
-      <!-- Intro Section -->
+      <!-- Intro Section for Programs Page -->
       <section class="programs-intro-section">
         <div class="container">
+          <!-- Page title -->
           <h1 class="page-title">Our Natural Wellness Programs</h1>
+          <!-- Page description -->
           <p class="page-description">
             <!-- Brief description of the programs offered -->
             Discover a curated selection of natural and holistic treatments designed to rejuvenate your mind, body, and spirit. Each program is crafted with pure ingredients and expert care.
@@ -62,7 +61,7 @@
       </section>
       <!-- Programs Grid Section -->
       <section class="programs-grid-section">
-        <!-- Hidden heading for accessibility -->
+        <!-- Hidden heading for accessibility (screen readers) -->
         <h2 class="visually-hidden">Program List</h2>
         <div class="container programs-grid-container">
           <!-- Program Card 1 -->
@@ -82,56 +81,76 @@
           </article>
           <!-- Program Card 2 -->
           <article class="program-card">
+            <!-- Program image -->
             <img src="assets/images/program2.jpg" alt="Volcanic Stone Massage - Hot stone therapy" class="program-image" />
             <div class="program-info">
+              <!-- Program title -->
               <h2 class="program-title">Volcanic Stone Massage</h2>
+              <!-- Program description -->
               <p class="program-description">
                 Experience profound relaxation with warm, smooth volcanic stones placed on key energy points. Promotes muscle release and energy flow.
               </p>
+              <!-- Booking button -->
               <a href="contact.html" class="read-more-btn">Book This Treatment</a>
             </div>
           </article>
           <!-- Program Card 3 -->
           <article class="program-card">
+            <!-- Program image -->
             <img src="assets/images/program3.jpg" alt="Organic Clay Detox Wrap - Body wrap treatment" class="program-image" />
             <div class="program-info">
+              <!-- Program title -->
               <h2 class="program-title">Organic Clay Detox Wrap</h2>
+              <!-- Program description -->
               <p class="program-description">
                 A purifying body wrap utilizing nutrient-rich organic clays. Draws out impurities, leaving your skin soft and revitalized.
               </p>
+              <!-- Booking button -->
               <a href="contact.html" class="read-more-btn">Book This Treatment</a>
             </div>
           </article>
           <!-- Program Card 4 -->
           <article class="program-card">
+            <!-- Program image -->
             <img src="assets/images/program4.jpg" alt="Forest Serenity Sound Bath - Meditation with singing bowls" class="program-image" />
             <div class="program-info">
+              <!-- Program title -->
               <h2 class="program-title">Forest Serenity Sound Bath</h2>
+              <!-- Program description -->
               <p class="program-description">
                 Immerse yourself in a meditative soundscape crafted with natural instruments, evoking the tranquility of a serene forest.
               </p>
+              <!-- Booking button -->
               <a href="contact.html" class="read-more-btn">Book This Treatment</a>
             </div>
           </article>
           <!-- Program Card 5 -->
           <article class="program-card">
+            <!-- Program image -->
             <img src="assets/images/program5.jpg" alt="Mindful Meditation Session - Person meditating in a serene setting" class="program-image" />
             <div class="program-info">
+              <!-- Program title -->
               <h2 class="program-title">Mindful Meditation & Breathwork</h2>
+              <!-- Program description -->
               <p class="program-description">
                 A guided session to calm the mind and revitalize the body through mindful breathing techniques and deep relaxation.
               </p>
+              <!-- Booking button -->
               <a href="contact.html" class="read-more-btn">Book This Treatment</a>
             </div>
           </article>
           <!-- Program Card 6 -->
           <article class="program-card">
+            <!-- Program image -->
             <img src="assets/images/program6.jpg" alt="Botanical Facial Rejuvenation - Natural skincare" class="program-image" />
             <div class="program-info">
+              <!-- Program title -->
               <h2 class="program-title">Botanical Facial Rejuvenation</h2>
+              <!-- Program description -->
               <p class="program-description">
                 A gentle, plant-based facial designed to nourish and revitalize your complexion. Uses pure botanical extracts for a radiant glow.
               </p>
+              <!-- Booking button -->
               <a href="contact.html" class="read-more-btn">Book This Treatment</a>
             </div>
           </article>
@@ -143,7 +162,7 @@
     <footer>
       <div class="container">
         <div class="footer-grid">
-          <!-- Address -->
+          <!-- Address with Google Maps link -->
           <address class="footer-address">
             <a href="https://maps.app.goo.gl/iLgQMbWuFq2zFYVX7" target="_blank" rel="noopener">
               123 Quiet Street, London, UK
