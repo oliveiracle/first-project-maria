@@ -78,7 +78,7 @@ Wireframes were created for both desktop and mobile to plan the layout and user 
     -  The navigation bar is designed for an intuitive Browse experience. It stays fixed at the top for easy access and seamlessly transforms into a clean hamburger menu on mobile. This ensures users can find what they need—from treatment pages to the “Book Your Program” button—from anywhere on the site, on any device.
 
 -   **The Hero Section** 
-   ![Screenshot of the homepage](documentation/screenshots/herosection.png)
+   ![Screenshot of the homepage](documentation/screenshots/hero.png)
     -    -   The first thing visitors see is a full-screen hero section designed for immediate immersion. On desktop, this is achieved with a subtle, looping background video, while on mobile, a high-quality static image is used to ensure fast performance and a clean user experience. This visual introduction is paired with the brand's motto: "Quiet Luxury. Deep Presence.
 
 -   **Programs Page** 
@@ -216,12 +216,13 @@ You can view the deployed site here:
 ### Media
 * All photographic images used on the website were sourced from [Pexels](https://www.pexels.com/).
 * The icons used in the footer are from [Font Awesome](https://fontawesome.com/).
+* The looping background video for the homepage was sourced from [Pexels](https://www.pexels.com/video/person-using-a-honey-dipper-7615791/).
  
 
 ### Acknowledgements
 * **Design Tools:** Used **Microsoft Paint** for the initial wireframing and **Figma** to design the final color palette graphic.
 * **Responsive Design:** Solutions for the responsive media queries and the mobile hamburger menu toggle were adapted and implemented based on various online resources and tutorials, including CSS-Tricks and Stack Overflow.
-*  **Google AI (Gemini & Veo):**  Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, providing structured feedback throughout the project, VEO IA to generate the looping background video for the homepage **and acting as a language translator, given that my native language is Portuguese.**
+*  **Google AI (Gemini):**  Utilized for conceptual brainstorming, professional phrasing of documentation, debugging assistance, providing structured feedback throughout the project **and acting as a language translator, given that my native language is Portuguese.**
 * **GitHub Copilot (VS Code Extension):** Assisted in the organization of the CSS file structure and provided code completion within VS Code.
 * **Prettier (VS Code Extension):** Utilized for automatic code formatting to ensure consistent and clean code style.
 * **Formspree:** Used as the form backend service to handle submissions from the contact page.
