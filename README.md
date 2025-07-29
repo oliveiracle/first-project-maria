@@ -4,7 +4,7 @@ MARIA | Wellness & Spa is a responsive front-end website for a fictional high-en
 
 Its main purpose is to introduce the spa’s concept, showcase its curated treatments, and make it easy for visitors to learn more or get in touch — all through a minimalist, mobile-friendly design.
 
-![Responsive Mockup](documentation/screenshots/mockup.png)
+![Responsive Mockup](documentation/screenshots/philosophy.png)
 
 [View the live project here](https://oliveiracle.github.io/first-project-maria/)
 
