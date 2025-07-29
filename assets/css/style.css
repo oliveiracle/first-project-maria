@@ -18,23 +18,18 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-  background-color: #f5f5f5; 
-}
-
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  min-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  margin: 0;
+  padding: 0; 
 }
 
 /* Body: Set font, background image, and minimum height */
 body {
   font-family: var(--font-primary);
-  background: url("../images/BG.jpg") center center/cover no-repeat scroll;
+  background: url("../images/BG.jpg") center center/cover no-repeat fixed,  #f5f5f5;
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -321,7 +316,8 @@ body {
 
 /* Footer: padding, color, and grid layout */
 footer {
-  padding: 80px 0 40px;
+  padding: 40px 10px;
+  background: none;
   color: var(--primary-color);
   position: relative;
 }
@@ -745,6 +741,12 @@ a:focus-visible, button:focus-visible {
 ---------------------------------------*/
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
+
+  body {
+    background: url("../images/BG.jpg") center center/cover no-repeat fixed, #f5f5f5;
+    min-height: 100%;
+  }
+
   /* Hide background video on small screens */
   .background-video {
     display: none !important;
@@ -754,17 +756,10 @@ a:focus-visible, button:focus-visible {
     background: transparent;
   }
 
-
-  /* Body: set background image and attachment */
- body.index-background {
-    background: url("../images/BG.jpg") center center / cover no-repeat scroll;
-}
-
   /* Footer: reduce padding */
   footer {
     padding: 80px 10px 0;
-    position: relative;
-    background: transparent;
+    background: none;
   }
 
   /* Main content: reduce margin and padding */
